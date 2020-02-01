@@ -1,6 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7C81E343-BD40-4864-BC16-59ED4C1F12DF}" SchemaVersion="94">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{7C81E343-BD40-4864-BC16-59ED4C1F12DF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7C81E343-BD40-4864-BC16-59ED4C1F12DF}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Main_music" ID="{7FD21F98-B672-4775-87D1-0D160717B615}" ShortID="478152623">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="140"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Segment_1" ID="{6381218E-BEE5-4193-B5B6-1112550CC0BF}" ShortID="277182365">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+								</Reference>
+							</ReferenceList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{8CE2066E-9D52-43B5-A4BF-2BB0AB94D258}"/>
+								<MusicCue Name="Exit Cue" ID="{5981EC62-EF27-4BEA-9A4E-85B0D82378DD}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Segment_2" ID="{FB0169B7-5347-4E50-8D7E-A12916DC5A55}" ShortID="787513583">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+								</Reference>
+							</ReferenceList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{30D04225-4E52-4950-BEF8-ADA5BE97D71D}"/>
+								<MusicCue Name="Exit Cue" ID="{28AAE0E7-D13E-4A2E-9AB9-8ED3CA7CD909}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Segment_3" ID="{97E9FB59-BF13-417C-A558-C37549AD106B}" ShortID="892639470">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+								</Reference>
+							</ReferenceList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{208D785E-7C17-4E2D-A3A1-E9DEF949C97A}"/>
+								<MusicCue Name="Exit Cue" ID="{9C21D7ED-382A-4A25-81FC-694821690100}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Segment_4" ID="{B84F43EA-44D5-47B8-BADE-26708A879DBA}" ShortID="721118838">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+								</Reference>
+							</ReferenceList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{E32C9929-2798-49E0-93C0-2C1279857B3E}"/>
+								<MusicCue Name="Exit Cue" ID="{2AC4ECBA-A69B-4AFE-970A-168AE4B3688D}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{976C191A-B780-4B15-8614-1B05DD8EEDDA}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{CF542062-C906-4174-9231-B38907D535B1}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{1A958265-DDCB-42CD-B47C-01AEB46F0C56}" ShortID="879938227"/>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>
