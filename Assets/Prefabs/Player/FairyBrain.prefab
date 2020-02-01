@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1574807698814498469}
   - component: {fileID: 4628981003793882736}
   - component: {fileID: 4628981003793882738}
+  - component: {fileID: 8250246649734275715}
   m_Layer: 0
   m_Name: FairyBrain
   m_TagString: Untagged
@@ -147,3 +148,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &8250246649734275715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4396463774018141856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e75c35952aeed4cbb99a7fa782b447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d6d0336cfa0f44749a8728d6e7b365b6,
+      type: 2}
