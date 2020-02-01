@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6730365682468592864
 Transform:
   m_ObjectHideFlags: 0
@@ -181,16 +181,15 @@ MonoBehaviour:
   startedLeft: 0
   controlledLeft: 0
   nodeSpriteRenderer: {fileID: 0}
-  leftControlled: {fileID: 21300000, guid: 6601ccc7ff9a848aa93048510b665402, type: 3}
+  leftControlled: {fileID: 21300000, guid: 1eae5ade6320d89468712b91eb80f1f1, type: 3}
   rightControlled: {fileID: 21300000, guid: f98b0ebca28a3440dbcf4b97ee3f64fb, type: 3}
   regionLeftControlled: {fileID: 21300000, guid: 51fa940839ac2429baaee5964790f407,
     type: 3}
   regionRightControlled: {fileID: 21300000, guid: 6cfd7514bf75d4404b8b172f0c916140,
     type: 3}
   region: {fileID: 8577909586941188420}
-  nodeControlPercent: 100
-  leftInfluence: 0
-  rightInfluence: 0
+  nodeControl: 5
+  nodeHealth: 5
   unitNodeInfluence: 3
   startingNodeInfluence: 1
   controlledInfluence: 1
@@ -201,7 +200,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8577909587070232837}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -230,6 +229,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8577909587070232832}
     m_Modifications:
+    - target: {fileID: 4934946583439711266, guid: f90faf4d19b524d4e8f9908064752e6a,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5651281554702177309, guid: f90faf4d19b524d4e8f9908064752e6a,
         type: 3}
       propertyPath: m_Name
