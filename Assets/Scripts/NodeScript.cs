@@ -15,6 +15,7 @@ public class NodeScript : MonoBehaviour
     public Sprite regionLeftControlled;
     public Sprite regionRightControlled;
 
+    public enum NodeType {HighFunctions, Movement, VisAud}
     public GameObject region;
 
     public float nodeControlPercent = 100; //-100 is all the way controlled left and 100 is all the way controlled right

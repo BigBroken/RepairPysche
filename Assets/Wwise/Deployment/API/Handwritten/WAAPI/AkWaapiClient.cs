@@ -206,8 +206,8 @@ public class AkWaapiClient
 
 	static AkWaapiClient()
 	{
-		//UnityEditor.EditorApplication.update += ProcessCallbacks;
-		//AkWaapiClient_PINVOKE.SetWampEventCallback(InternalWampEventCallback);
+		UnityEditor.EditorApplication.update += ProcessCallbacks;
+		AkWaapiClient_PINVOKE.SetWampEventCallback(InternalWampEventCallback);
 	}
 
 	~AkWaapiClient()
