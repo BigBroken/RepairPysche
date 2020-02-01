@@ -10,9 +10,14 @@ public class PlayerController : MonoBehaviour
     float vertical;
 
     public float runSpeed = 20.0f;
-    public enum SelectedPlayer { Player1, player2 };
+    public enum SelectedPlayer { Player1, Player2 };
     public SelectedPlayer Player;
     public GameObject AttackPrefab;
+    public GameObject node;
+
+    //UseRepair defines
+    public float repairTime = 5;
+    public float timer = 0;
 
     void Start()
     {
@@ -29,8 +34,12 @@ public class PlayerController : MonoBehaviour
             {
                 UseAttack();
             }
+            if (Input.GetButton("Player1Repair"))
+            {
+                UseRepair();
+            }
         }
-        else if (Player == SelectedPlayer.player2)
+        else if (Player == SelectedPlayer.Player2)
         {
             horizontal = Input.GetAxisRaw("Player2Horizontal");
             vertical = Input.GetAxisRaw("Player2Vertical");
@@ -38,12 +47,38 @@ public class PlayerController : MonoBehaviour
             {
                 UseAttack();
             }
+            if (Input.GetButton("Player2Repair"))
+            {
+                UseRepair();
+            }
         }
     }
     void UseAttack()
     {
         GameObject Attack = Instantiate(AttackPrefab, this.transform);
         Attack.GetComponent<AttackController>().SetDirection(body.velocity);
+    }
+
+    void UseRepair()
+    {
+        if(node != null)
+        {
+            if(timer >= repairTime)
+            {
+                timer = 0;
+                if (SelectedPlayer.Player1 == Player)
+                {
+                    node.GetComponent<NodeScript>().nodeControl -= 1;
+                }
+                else if (SelectedPlayer.Player2 == Player)
+                {
+                    node.GetComponent<NodeScript>().nodeControl += 1;
+                }
+                return;
+            }
+
+            timer += Time.deltaTime;
+        }
     }
 
     private void FixedUpdate()
