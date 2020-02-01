@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class NodeScript : MonoBehaviour
 {
+
+    public enum NodeState {Destroyed, RobotControlled, FairyControlled,}
 	public bool startedLeft = true;
 	public bool controlledLeft = true;
+    public float repairTime;
+    public float attackTime;
+
 
     public SpriteRenderer nodeSpriteRenderer;
 
@@ -18,13 +23,6 @@ public class NodeScript : MonoBehaviour
     public enum NodeType {HighFunctions, Movement, VisAud}
     public GameObject region;
 
-    public int nodeControl = 5; //-5 is all the way controlled left and 5 is all the way controlled right
-    public int nodeHealth = 5;
-
-    public int unitNodeInfluence;
-    public int startingNodeInfluence;
-    public int controlledInfluence;
-
     void Start()
     {
         nodeSpriteRenderer = GetComponent<SpriteRenderer>();
@@ -32,36 +30,34 @@ public class NodeScript : MonoBehaviour
 
     void Update()
     {
-        if (nodeControl > 0 && controlledLeft)
-        {
-            changeControl();
-        }
+        //if (nodeControl > 0 && controlledLeft)
+        //{
+        //    changeControl();
+        //}
 
-        if (nodeControl < 0 && !controlledLeft)
-        {
-            changeControl();
-        }
+        //if (nodeControl < 0 && !controlledLeft)
+        //{
+        //    changeControl();
+        //}
 
-        nodeControl = Mathf.Clamp(nodeControl, -5, 5);
+        //nodeControl = Mathf.Clamp(nodeControl, -5, 5);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log(collision);
         if (collision.CompareTag("Right"))
         {
-            collision.GetComponent<FairyBrainController>().node = gameObject;
+            collision.GetComponent<FairyBrainController>().node = this;
         }
 
         if (collision.CompareTag("Left"))
         {
-            collision.GetComponent<RobotController>().node = gameObject;
+            collision.GetComponent<RobotController>().node = this;
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Debug.Log(collision);
         if (collision.CompareTag("Right"))
         {
             collision.GetComponent<FairyBrainController>().node = null;
@@ -73,20 +69,29 @@ public class NodeScript : MonoBehaviour
         }
     }
 
-    void changeControl()
+    public void changeState(NodeState state)
     {
-        if (controlledLeft)
+        switch (state)
         {
-            controlledLeft = false;
-            nodeSpriteRenderer.sprite = rightControlled;
-            region.GetComponent<SpriteRenderer>().sprite = regionRightControlled;
-        }
-
-        else if (!controlledLeft)
-        {
-            controlledLeft = true;
-            nodeSpriteRenderer.sprite = leftControlled;
-            region.GetComponent<SpriteRenderer>().sprite = regionLeftControlled;
+            case NodeState.Destroyed:
+                {
+                    // your code 
+                    // for MULTIPLY operator
+                    break;
+                }
+            case NodeState.RobotControlled:
+                {
+                    // your code 
+                    // for MULTIPLY operator
+                    break;
+                }
+            case NodeState.FairyControlled:
+                {
+                    // your code 
+                    // for MULTIPLY operator
+                    break;
+                }
+            default: break;
         }
     }
 }

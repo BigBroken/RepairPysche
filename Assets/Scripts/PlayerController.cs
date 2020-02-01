@@ -15,7 +15,8 @@ public class PlayerController : MonoBehaviour
     public GameObject AttackPrefab;
     public List<NodeScript> StartingNodes;
     public List<NodeScript> CapturedNodes;
-    public GameObject node;
+    public NodeScript node;
+    public bool AmRobot;
 
     //UseRepair defines
     public float repairTime = 5;
@@ -34,11 +35,14 @@ public class PlayerController : MonoBehaviour
             vertical = Input.GetAxisRaw("Player1Vertical");
             if (Input.GetButtonDown("Player1Attack"))
             {
-                UseAttack();
+                
             }
             if (Input.GetButton("Player1Repair"))
             {
-                UseRepair();
+                if (node != null)
+                {
+                    StartCoroutine(AttemptRepair());
+                }
             }
         }
         else if (Player == SelectedPlayer.Player2)
@@ -51,7 +55,10 @@ public class PlayerController : MonoBehaviour
             }
             if (Input.GetButton("Player2Repair"))
             {
-                UseRepair();
+                if (node != null)
+                {
+                    StartCoroutine(AttemptRepair());
+                }
             }
         }
     }
@@ -65,26 +72,34 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    void UseRepair()
+    public IEnumerator AttemptRepair()
     {
-        if (node != null)
+        float repairTime = node.repairTime;
+        string playerInput;
+        if(SelectedPlayer.Player1 == Player)
         {
-            if (timer >= repairTime)
-            {
-                timer = 0;
-                if (SelectedPlayer.Player1 == Player)
-                {
-                    node.GetComponent<NodeScript>().nodeControl -= 1;
-                }
-                else if (SelectedPlayer.Player2 == Player)
-                {
-                    node.GetComponent<NodeScript>().nodeControl += 1;
-                }
-                return;
-            }
-
-            timer += Time.deltaTime;
+            playerInput = "Player1Repair";
+        } else
+        {
+            playerInput = "Player2Repair";
         }
+        while (Input.GetButton(playerInput) && timer < node.repairTime)
+        {
+            //update repair timer
+            timer += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+        if(timer > node.repairTime)
+        {
+            if (AmRobot)
+            {
+                node.changeState(NodeScript.NodeState.RobotControlled);
+            } else
+            {
+                node.changeState(NodeScript.NodeState.FairyControlled);
+            }
+        }
+        yield return null;
     }
 
     private void FixedUpdate()
@@ -97,20 +112,14 @@ public class PlayerController : MonoBehaviour
         {
             case NodeScript.NodeType.HighFunctions:
                 {
-                    // your code 
-                    // for plus operator
                     break;
                 }
             case NodeScript.NodeType.Movement:
                 {
-                    // your code 
-                    // for MULTIPLY operator
                     break;
                 }
             case NodeScript.NodeType.VisAud:
                 {
-                    // your code 
-                    // for MULTIPLY operator
                     break;
                 }
             default: break;
