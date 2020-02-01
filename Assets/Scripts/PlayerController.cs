@@ -47,7 +47,10 @@ public class PlayerController : MonoBehaviour
         GameObject Attack = Instantiate(AttackPrefab, this.transform);
         Attack.GetComponent<AttackController>().SetDirection(body.velocity);
     }
+    public void EnteredRegion(NodeScript Node)
+    {
 
+    }
     private void FixedUpdate()
     {
         body.velocity = new Vector2(horizontal, vertical).normalized * runSpeed;
