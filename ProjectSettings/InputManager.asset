@@ -54,7 +54,7 @@ InputManager:
     axis: 0
     joyNum: 0
   - serializedVersion: 3
-    m_Name: Player1Defense
+    m_Name: Player1Repair
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
@@ -118,7 +118,7 @@ InputManager:
     axis: 0
     joyNum: 0
   - serializedVersion: 3
-    m_Name: Player2Defense
+    m_Name: Player2Repair
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
