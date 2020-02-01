@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1574807698814498469}
   - component: {fileID: 4628981003793882736}
   - component: {fileID: 4628981003793882738}
+  - component: {fileID: -4053825283859986258}
   m_Layer: 0
   m_Name: FairyBrain
   m_TagString: Right
@@ -100,6 +101,9 @@ MonoBehaviour:
   Player: 1
   AttackPrefab: {fileID: 8897381419688826097, guid: 12b59cbf31e5149458f5b4f3edb9d48a,
     type: 3}
+  node: {fileID: 0}
+  repairTime: 5
+  timer: 0
 --- !u!50 &4628981003793882736
 Rigidbody2D:
   serializedVersion: 4
@@ -147,3 +151,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &-4053825283859986258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4396463774018141856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f4ee05c581a21940bcc714834e08b55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f1eb76c3157d31b4aaeb022e2f929534,
+      type: 2}

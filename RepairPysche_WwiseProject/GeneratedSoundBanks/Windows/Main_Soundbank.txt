@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1793296491	Play_Blip			\Default Work Unit\Play_Blip	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	575182409	Wwise Sine	Wwise Sine		\Actor-Mixer Hierarchy\Default Work Unit\MainMixer\Blip\Wwise Sine	
+

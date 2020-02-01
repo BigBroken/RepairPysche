@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Blip" ID="{204AEC82-ADBA-4298-97A9-74C326D2BE67}">
+					<ChildrenList>
+						<Action Name="" ID="{6B74BD6B-865B-46CD-92C7-AE03D7F49585}" ShortID="934696426">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Blip" ID="{D7B63917-A910-4123-889F-2FE8366CA341}" WorkUnitID="{74F5E321-434F-4B7B-801D-697D43CA19AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
