@@ -28,22 +28,6 @@ public class NodeScript : MonoBehaviour
     void Start()
     {
         nodeSpriteRenderer = GetComponent<SpriteRenderer>();
-        if (startedLeft)
-        {
-            leftInfluence += startingNodeInfluence;
-        }
-        if (!startedLeft)
-        {
-            rightInfluence += startingNodeInfluence;
-        }
-        if (controlledLeft)
-        {
-            leftInfluence += controlledInfluence;
-        }
-        if (!controlledLeft)
-        {
-            rightInfluence += controlledInfluence;
-        }
     }
 
     void Update()
@@ -96,8 +80,6 @@ public class NodeScript : MonoBehaviour
         if (controlledLeft)
         {
             controlledLeft = false;
-            leftInfluence -= controlledInfluence;
-            rightInfluence += controlledInfluence;
             nodeSpriteRenderer.sprite = rightControlled;
             region.GetComponent<SpriteRenderer>().sprite = regionRightControlled;
         }
@@ -105,8 +87,6 @@ public class NodeScript : MonoBehaviour
         else if (!controlledLeft)
         {
             controlledLeft = true;
-            leftInfluence += controlledInfluence;
-            rightInfluence -= controlledInfluence;
             nodeSpriteRenderer.sprite = leftControlled;
             region.GetComponent<SpriteRenderer>().sprite = regionLeftControlled;
         }
