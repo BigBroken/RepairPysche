@@ -188,6 +188,48 @@ PrefabInstance:
       propertyPath: m_Name
       value: Node
       objectReference: {fileID: 0}
+    - target: {fileID: 3919685763960987846, guid: 6b7d0358546824a128eeb015ffe0ee47,
+        type: 3}
+      propertyPath: leftControlled
+      value: 
+      objectReference: {fileID: 21300000, guid: 6601ccc7ff9a848aa93048510b665402,
+        type: 3}
+    - target: {fileID: 3919685763960987846, guid: 6b7d0358546824a128eeb015ffe0ee47,
+        type: 3}
+      propertyPath: rightControlled
+      value: 
+      objectReference: {fileID: 21300000, guid: f98b0ebca28a3440dbcf4b97ee3f64fb,
+        type: 3}
+    - target: {fileID: 3919685763960987846, guid: 6b7d0358546824a128eeb015ffe0ee47,
+        type: 3}
+      propertyPath: nodeControlPercent
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919685763960987846, guid: 6b7d0358546824a128eeb015ffe0ee47,
+        type: 3}
+      propertyPath: leftInfluence
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919685763960987846, guid: 6b7d0358546824a128eeb015ffe0ee47,
+        type: 3}
+      propertyPath: unitNodeInfluence
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919685763960987846, guid: 6b7d0358546824a128eeb015ffe0ee47,
+        type: 3}
+      propertyPath: startingNodeInfluence
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919685763960987846, guid: 6b7d0358546824a128eeb015ffe0ee47,
+        type: 3}
+      propertyPath: controlledLeftInfluence
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919685763960987846, guid: 6b7d0358546824a128eeb015ffe0ee47,
+        type: 3}
+      propertyPath: controlledInfluence
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b7d0358546824a128eeb015ffe0ee47, type: 3}
 --- !u!1 &1168106811
