@@ -89,6 +89,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8586210385850916150
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /RepairPysche_WwiseProject
+  - /RepairPysche_WwiseProject/Events
+  - /RepairPysche_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
