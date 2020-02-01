@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Region
+    uniqueID: 3258613893
+    locked: 0
+  - name: Node
+    uniqueID: 4159194975
+    locked: 0
+  - name: Players
+    uniqueID: 1333982077
+    locked: 0
