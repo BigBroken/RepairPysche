@@ -64,6 +64,29 @@ public class PlayerController : MonoBehaviour
     {
 
     }
+
+    void UseRepair()
+    {
+        if (node != null)
+        {
+            if (timer >= repairTime)
+            {
+                timer = 0;
+                if (SelectedPlayer.Player1 == Player)
+                {
+                    node.GetComponent<NodeScript>().nodeControl -= 1;
+                }
+                else if (SelectedPlayer.Player2 == Player)
+                {
+                    node.GetComponent<NodeScript>().nodeControl += 1;
+                }
+                return;
+            }
+
+            timer += Time.deltaTime;
+        }
+    }
+
     private void FixedUpdate()
     {
         body.velocity = new Vector2(horizontal, vertical).normalized * runSpeed;
