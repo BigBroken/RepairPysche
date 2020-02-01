@@ -15,6 +15,7 @@ public class NodeScript : MonoBehaviour
     public Sprite regionLeftControlled;
     public Sprite regionRightControlled;
 
+    public enum NodeType {HighFunctions, Movement, VisAud}
     public GameObject region;
 
     public int nodeControl = 5; //-5 is all the way controlled left and 5 is all the way controlled right

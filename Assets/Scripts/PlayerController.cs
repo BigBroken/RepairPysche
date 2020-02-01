@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     public enum SelectedPlayer { Player1, Player2 };
     public SelectedPlayer Player;
     public GameObject AttackPrefab;
+    public List<NodeScript> StartingNodes;
+    public List<NodeScript> CapturedNodes;
     public GameObject node;
 
     //UseRepair defines
@@ -58,12 +60,16 @@ public class PlayerController : MonoBehaviour
         GameObject Attack = Instantiate(AttackPrefab, this.transform);
         Attack.GetComponent<AttackController>().SetDirection(body.velocity);
     }
+    public void EnteredRegion(NodeScript Node)
+    {
+
+    }
 
     void UseRepair()
     {
-        if(node != null)
+        if (node != null)
         {
-            if(timer >= repairTime)
+            if (timer >= repairTime)
             {
                 timer = 0;
                 if (SelectedPlayer.Player1 == Player)
@@ -84,5 +90,30 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         body.velocity = new Vector2(horizontal, vertical).normalized * runSpeed;
+    }
+    public void NodeDamaged(NodeScript.NodeType type)
+    {
+        switch (type)
+        {
+            case NodeScript.NodeType.HighFunctions:
+                {
+                    // your code 
+                    // for plus operator
+                    break;
+                }
+            case NodeScript.NodeType.Movement:
+                {
+                    // your code 
+                    // for MULTIPLY operator
+                    break;
+                }
+            case NodeScript.NodeType.VisAud:
+                {
+                    // your code 
+                    // for MULTIPLY operator
+                    break;
+                }
+            default: break;
+        }
     }
 }
