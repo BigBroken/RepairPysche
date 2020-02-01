@@ -213,7 +213,7 @@ PrefabInstance:
     - target: {fileID: 3919685763960987846, guid: 6b7d0358546824a128eeb015ffe0ee47,
         type: 3}
       propertyPath: unitNodeInfluence
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3919685763960987846, guid: 6b7d0358546824a128eeb015ffe0ee47,
         type: 3}
