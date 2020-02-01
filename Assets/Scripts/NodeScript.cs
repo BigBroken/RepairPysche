@@ -18,9 +18,8 @@ public class NodeScript : MonoBehaviour
     public enum NodeType {HighFunctions, Movement, VisAud}
     public GameObject region;
 
-    public float nodeControlPercent = 100; //-100 is all the way controlled left and 100 is all the way controlled right
-    public int leftInfluence = 0;
-    public int rightInfluence = 0;
+    public int nodeControl = 5; //-5 is all the way controlled left and 5 is all the way controlled right
+    public int nodeHealth = 5;
 
     public int unitNodeInfluence;
     public int startingNodeInfluence;
@@ -29,39 +28,21 @@ public class NodeScript : MonoBehaviour
     void Start()
     {
         nodeSpriteRenderer = GetComponent<SpriteRenderer>();
-        if (startedLeft)
-        {
-            leftInfluence += startingNodeInfluence;
-        }
-        if (!startedLeft)
-        {
-            rightInfluence += startingNodeInfluence;
-        }
-        if (controlledLeft)
-        {
-            leftInfluence += controlledInfluence;
-        }
-        if (!controlledLeft)
-        {
-            rightInfluence += controlledInfluence;
-        }
     }
 
     void Update()
     {
-        if (nodeControlPercent > 0 && controlledLeft)
+        if (nodeControl > 0 && controlledLeft)
         {
             changeControl();
         }
 
-        if (nodeControlPercent < 0 && !controlledLeft)
+        if (nodeControl < 0 && !controlledLeft)
         {
             changeControl();
         }
 
-        nodeControlPercent += rightInfluence * Time.deltaTime;
-        nodeControlPercent -= leftInfluence * Time.deltaTime;
-        nodeControlPercent = Mathf.Clamp(nodeControlPercent, -100, 100);
+        nodeControl = Mathf.Clamp(nodeControl, -5, 5);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -69,12 +50,12 @@ public class NodeScript : MonoBehaviour
         Debug.Log(collision);
         if (collision.CompareTag("Right"))
         {
-            rightInfluence += unitNodeInfluence;
+            collision.GetComponent<FairyBrainController>().node = gameObject;
         }
 
         if (collision.CompareTag("Left"))
         {
-            leftInfluence += unitNodeInfluence;
+            collision.GetComponent<RobotController>().node = gameObject;
         }
     }
 
@@ -83,12 +64,12 @@ public class NodeScript : MonoBehaviour
         Debug.Log(collision);
         if (collision.CompareTag("Right"))
         {
-            rightInfluence -= unitNodeInfluence;
+            collision.GetComponent<FairyBrainController>().node = null;
         }
 
         if (collision.CompareTag("Left"))
         {
-            leftInfluence -= unitNodeInfluence;
+            collision.GetComponent<RobotController>().node = null;
         }
     }
 
@@ -97,8 +78,6 @@ public class NodeScript : MonoBehaviour
         if (controlledLeft)
         {
             controlledLeft = false;
-            leftInfluence -= controlledInfluence;
-            rightInfluence += controlledInfluence;
             nodeSpriteRenderer.sprite = rightControlled;
             region.GetComponent<SpriteRenderer>().sprite = regionRightControlled;
         }
@@ -106,8 +85,6 @@ public class NodeScript : MonoBehaviour
         else if (!controlledLeft)
         {
             controlledLeft = true;
-            leftInfluence += controlledInfluence;
-            rightInfluence -= controlledInfluence;
             nodeSpriteRenderer.sprite = leftControlled;
             region.GetComponent<SpriteRenderer>().sprite = regionLeftControlled;
         }
