@@ -7,6 +7,9 @@ public class NodeScript : MonoBehaviour
 	public bool startedLeft = false;
 	public bool controlledLeft = false;
 
+
+    public SpriteRenderer nodeSpriteRenderer;
+
     public Sprite leftControlled;
     public Sprite rightControlled;
 
@@ -17,7 +20,7 @@ public class NodeScript : MonoBehaviour
 
     void Start()
     {
-        
+        nodeSpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -29,12 +32,17 @@ public class NodeScript : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log(collision);
+    }
+
     void changeControl()
     {
         if (controlledLeft)
         {
             controlledLeft = false;
-            GetComponent<SpriteRenderer>().sprite = rightControlled;
+            nodeSpriteRenderer.sprite = rightControlled;
             region.GetComponent<SpriteRenderer>().sprite = regionRightControlled;
 
         }
@@ -42,7 +50,7 @@ public class NodeScript : MonoBehaviour
         else if (!controlledLeft)
         {
             controlledLeft = true;
-            GetComponent<SpriteRenderer>().sprite = leftControlled;
+            nodeSpriteRenderer.sprite = leftControlled;
             region.GetComponent<SpriteRenderer>().sprite = regionLeftControlled;
         }
     }
