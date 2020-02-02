@@ -151,6 +151,64 @@ MonoBehaviour:
   groupIdInternal: 0
   valueGuidInternal: 
   groupGuidInternal: 
+--- !u!1 &2112503043
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2112503045}
+  - component: {fileID: 2112503044}
+  m_Layer: 0
+  m_Name: WwiseGlobal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2112503044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112503043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9d6c1ae87924928b7c4bb73b8e0efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationSettings: {fileID: 11400000, guid: 5ad46fe6a76804f7cb1075affd817120,
+    type: 2}
+  basePath: 
+  language: 
+  defaultPoolSize: 0
+  lowerPoolSize: 0
+  streamingPoolSize: 0
+  memoryCutoffThreshold: 0
+  monitorPoolSize: 0
+  monitorQueuePoolSize: 0
+  callbackManagerBufferSize: 0
+  spatialAudioPoolSize: 0
+  maxSoundPropagationDepth: 0
+  diffractionFlags: 11
+  engineLogging: 0
+--- !u!4 &2112503045
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112503043}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &514325441793050924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -233,6 +291,36 @@ PrefabInstance:
       propertyPath: nodeNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2074638092047251648, guid: 5cab20f00e96add47b3610891f1f390a,
+        type: 3}
+      propertyPath: tiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 6163125107640251579, guid: 73a19bee578ae463e833d21e2ea58f37,
+        type: 3}
+    - target: {fileID: 2074638092047251648, guid: 5cab20f00e96add47b3610891f1f390a,
+        type: 3}
+      propertyPath: tiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 49290328762365561, guid: 55725e67ff5de4f7db6dbe8e1a39bad3,
+        type: 3}
+    - target: {fileID: 2074638092047251648, guid: 5cab20f00e96add47b3610891f1f390a,
+        type: 3}
+      propertyPath: tiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 2011892062349383712, guid: 7b4c8bf8f36ec4d53b12237f7532b35c,
+        type: 3}
+    - target: {fileID: 2074638092047251648, guid: 5cab20f00e96add47b3610891f1f390a,
+        type: 3}
+      propertyPath: tiles.Array.data[3]
+      value: 
+      objectReference: {fileID: 6482020024538483849, guid: a2c5f0668720145a3904264e2e1ff7b5,
+        type: 3}
+    - target: {fileID: 2074638092047251648, guid: 5cab20f00e96add47b3610891f1f390a,
+        type: 3}
+      propertyPath: tiles.Array.data[4]
+      value: 
+      objectReference: {fileID: 984631653799212043, guid: 2e0c5fb3569f24d07984234537838615,
+        type: 3}
     - target: {fileID: 3121033284726345378, guid: 5cab20f00e96add47b3610891f1f390a,
         type: 3}
       propertyPath: m_LocalPosition.x

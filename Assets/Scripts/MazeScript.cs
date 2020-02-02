@@ -7,6 +7,11 @@ public class MazeScript : MonoBehaviour
     public GameObject[] tiles = { };
     float[] yPositions = { 0.59f, -0.06f, -0.72f };
 
+    private void Start()
+    {
+        GenerateMaze();
+    }
+
     public void GenerateMaze()
     {
         for(int i = 0; i < 3; i++)
