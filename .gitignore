@@ -1,6 +1,12 @@
 .DS_Store
 *~
 
+# WWise
+RepairPysche_WwiseProject/Originals/SFX/*.akd
+RepairPysche_WwiseProject/.cache
+RepairPysche_WwiseProject/RepairPysche_WwiseProject.crossover.validationcache
+RepairPysche_WwiseProject/RepairPysche_WwiseProject.crossover.wsettings
+
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
