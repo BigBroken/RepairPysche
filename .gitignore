@@ -6,6 +6,9 @@ RepairPysche_WwiseProject/Originals/SFX/*.akd
 RepairPysche_WwiseProject/.cache
 RepairPysche_WwiseProject/RepairPysche_WwiseProject.crossover.validationcache
 RepairPysche_WwiseProject/RepairPysche_WwiseProject.crossover.wsettings
+RepairPysche_WwiseProject/GeneratedSoundBanks
+RepairPysche_WwiseProject/IncrementalSoundBankData.xml
+Assets/Wwise_IDs.h
 
 # This .gitignore file should be placed at the root of your Unity project directory
 #
