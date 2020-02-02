@@ -111,8 +111,8 @@ public class PlayerController : MovementController
     
     void UseAttack()
     {
-        GameObject Attack = Instantiate(AttackPrefab, this.transform);
-        Attack.GetComponent<AttackController>().SetDirection(body.velocity);
+        //GameObject Attack = Instantiate(AttackPrefab, this.transform);
+        //Attack.GetComponent<AttackController>().SetDirection(body.velocity);
     }
     public void EnteredRegion(NodeScript Node)
     {
