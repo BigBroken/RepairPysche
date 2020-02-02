@@ -11,12 +11,11 @@ public class NodeScript : MonoBehaviour
     public float repairTime;
     public float attackTime;
 
-
     public SpriteRenderer nodeSpriteRenderer;
 
-    public Sprite leftControlled;
-    public Sprite rightControlled;
-    public Sprite destroyed;
+    public Sprite fairySprite;
+    public Sprite robotSprite;
+    public Sprite destroyedSprite;
 
     public Sprite regionLeftControlled;
     public Sprite regionRightControlled;
@@ -78,6 +77,7 @@ public class NodeScript : MonoBehaviour
             case NodeState.Destroyed:
                 {
                     MusicStates.instance.nodeOneState(nodeNumber, "Destroyed");
+                    nodeSpriteRenderer.sprite = destroyedSprite;
                     // your code 
                     // for MULTIPLY operator
                     break;
@@ -85,6 +85,7 @@ public class NodeScript : MonoBehaviour
             case NodeState.RobotControlled:
                 {
                     MusicStates.instance.nodeOneState(nodeNumber, "Captured_Robot");
+                    nodeSpriteRenderer.sprite = robotSprite;
                     // your code 
                     // for MULTIPLY operator
                     break;
@@ -92,11 +93,24 @@ public class NodeScript : MonoBehaviour
             case NodeState.FairyControlled:
                 {
                     MusicStates.instance.nodeOneState(nodeNumber, "Captured_Fairy");
+                    nodeSpriteRenderer.sprite = fairySprite;
                     // your code 
                     // for MULTIPLY operator
                     break;
                 }
             default: break;
         }
+    }
+
+    public void RepairedFairy()
+    {
+        changeState(NodeState.FairyControlled);
+        print(":)");
+    }
+
+    public void RepairedRobot()
+    {
+        changeState(NodeState.RobotControlled);
+        print(":|");
     }
 }

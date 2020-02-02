@@ -96,14 +96,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5023255798ea64cbcb9b96fc33857a95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nodeNumber: 0
   startedLeft: 0
   controlledLeft: 0
   repairTime: 2
   attackTime: 1
   nodeSpriteRenderer: {fileID: 0}
-  leftControlled: {fileID: 21300000, guid: 9eff87eaee8668a489264692ea135d49, type: 3}
-  rightControlled: {fileID: 21300000, guid: 8a346b3a7fe4c2b4caae5f609a536763, type: 3}
-  destroyed: {fileID: 21300000, guid: 94e2d438b3a23194a82fcd1ede72bba1, type: 3}
+  fairySprite: {fileID: 21300000, guid: 9eff87eaee8668a489264692ea135d49, type: 3}
+  robotSprite: {fileID: 21300000, guid: 8a346b3a7fe4c2b4caae5f609a536763, type: 3}
+  destroyedSprite: {fileID: 21300000, guid: 94e2d438b3a23194a82fcd1ede72bba1, type: 3}
   regionLeftControlled: {fileID: 21300000, guid: 51fa940839ac2429baaee5964790f407,
     type: 3}
   regionRightControlled: {fileID: 21300000, guid: 6cfd7514bf75d4404b8b172f0c916140,

@@ -48,16 +48,15 @@ public class MazeScript : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        print("<3");
         if (brainController.CompareTag("Right"))
         {
-            brainController.GetComponent<FairyBrainController>().node.controlledLeft = false;
+            brainController.GetComponent<FairyBrainController>().node.RepairedFairy();
             brainController.GetComponent<FairyBrainController>().endRepair();
         }
 
         else if(brainController.CompareTag("Left"))
         {
-            brainController.GetComponent<RobotController>().node.controlledLeft = true;
+            brainController.GetComponent<RobotController>().node.RepairedRobot();
             brainController.GetComponent<RobotController>().endRepair();
         }
     }
