@@ -9,6 +9,8 @@ RepairPysche_WwiseProject/RepairPysche_WwiseProject.crossover.wsettings
 RepairPysche_WwiseProject/GeneratedSoundBanks
 RepairPysche_WwiseProject/IncrementalSoundBankData.xml
 Assets/Wwise_IDs.h
+Assets/StreamingAssets/Audio/GeneratedSoundBanks.meta
+Assets/Wwise/Deployment/*
 
 # This .gitignore file should be placed at the root of your Unity project directory
 #
