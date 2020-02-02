@@ -16,6 +16,7 @@ public class MovementController : MonoBehaviour
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
+        body.freezeRotation = true;
     }
 
     public void player1Movement()
