@@ -6,11 +6,7 @@ public class MazeScript : MonoBehaviour
 {
     public GameObject[] tiles = { };
     float[] yPositions = { 0.59f, -0.06f, -0.72f };
-
-    private void Start()
-    {
-        GenerateMaze();
-    }
+    GameObject[] activeTiles = { null, null, null };
 
     public void GenerateMaze()
     {
@@ -29,11 +25,16 @@ public class MazeScript : MonoBehaviour
             {
                 foo.transform.localPosition = new Vector3(0.178f, yPositions[i], 0);
             }
+
+            activeTiles[i] = foo;
         }
     }
 
     public void EndMaze()
     {
-
+        for(int i = 0; i < 3; i++)
+        {
+            Destroy(activeTiles[i]);
+        }
     }
 }

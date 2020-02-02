@@ -121,6 +121,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &45042224 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8440441027876743657, guid: 5cab20f00e96add47b3610891f1f390a,
+    type: 3}
+  m_PrefabInstance: {fileID: 514325441793050924}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &247584410 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7238144270133280673, guid: 5cab20f00e96add47b3610891f1f390a,
+    type: 3}
+  m_PrefabInstance: {fileID: 514325441793050924}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1331842236 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1880489087938443843, guid: 5cab20f00e96add47b3610891f1f390a,
@@ -321,6 +333,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 984631653799212043, guid: 2e0c5fb3569f24d07984234537838615,
         type: 3}
+    - target: {fileID: 2554779281173620435, guid: 5cab20f00e96add47b3610891f1f390a,
+        type: 3}
+      propertyPath: maze
+      value: 
+      objectReference: {fileID: 247584410}
     - target: {fileID: 3121033284726345378, guid: 5cab20f00e96add47b3610891f1f390a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -381,6 +398,16 @@ PrefabInstance:
       propertyPath: nodeNumber
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 4414516879096767029, guid: 5cab20f00e96add47b3610891f1f390a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.8921
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414516879096767029, guid: 5cab20f00e96add47b3610891f1f390a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5108041
+      objectReference: {fileID: 0}
     - target: {fileID: 4728237271584333862, guid: 5cab20f00e96add47b3610891f1f390a,
         type: 3}
       propertyPath: nodeNumber
@@ -396,6 +423,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameObject (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7238144270133280672, guid: 5cab20f00e96add47b3610891f1f390a,
+        type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054554004953571142, guid: 5cab20f00e96add47b3610891f1f390a,
+        type: 3}
+      propertyPath: maze
+      value: 
+      objectReference: {fileID: 45042224}
     - target: {fileID: 8286667493727305254, guid: 5cab20f00e96add47b3610891f1f390a,
         type: 3}
       propertyPath: nodeNumber

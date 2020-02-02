@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
     //UseRepair defines
     public float repairTime = 5;
     public float timer = 0;
+    public bool isRepairing = false;
+    public GameObject maze;
 
     void Start()
     {
@@ -31,33 +33,59 @@ public class PlayerController : MonoBehaviour
     {
         if (Player == SelectedPlayer.Player1)
         {
-            horizontal = Input.GetAxisRaw("Player1Horizontal");
-            vertical = Input.GetAxisRaw("Player1Vertical");
+            if (!isRepairing)
+            {
+                horizontal = Input.GetAxisRaw("Player1Horizontal");
+                vertical = Input.GetAxisRaw("Player1Vertical");
+            }
+            
             if (Input.GetButtonDown("Player1Attack"))
             {
                 
             }
-            if (Input.GetButton("Player1Repair"))
+            if (Input.GetButtonDown("Player1Repair"))
             {
                 if (node != null)
                 {
-                    StartCoroutine(AttemptRepair());
+                    //StartCoroutine(AttemptRepair());
+                    if (isRepairing)
+                    {
+                        endRepair();
+                    }
+
+                    else if (!isRepairing)
+                    {
+                        startRepair();
+                    }
                 }
             }
         }
         else if (Player == SelectedPlayer.Player2)
         {
-            horizontal = Input.GetAxisRaw("Player2Horizontal");
-            vertical = Input.GetAxisRaw("Player2Vertical");
+            if (!isRepairing)
+            {
+                horizontal = Input.GetAxisRaw("Player2Horizontal");
+                vertical = Input.GetAxisRaw("Player2Vertical");
+            }
+            
             if (Input.GetButtonDown("Player2Attack"))
             {
                 UseAttack();
             }
-            if (Input.GetButton("Player2Repair"))
+            if (Input.GetButtonDown("Player2Repair"))
             {
                 if (node != null)
                 {
-                    StartCoroutine(AttemptRepair());
+                    //StartCoroutine(AttemptRepair());
+                    if (isRepairing)
+                    {
+                        endRepair();
+                    }
+
+                    else if (!isRepairing)
+                    {
+                        startRepair();
+                    }
                 }
             }
         }
@@ -70,6 +98,18 @@ public class PlayerController : MonoBehaviour
     public void EnteredRegion(NodeScript Node)
     {
 
+    }
+
+    public void startRepair()
+    {
+        isRepairing = true;
+        maze.GetComponent<MazeScript>().GenerateMaze();
+    }
+
+    public void endRepair()
+    {
+        isRepairing = false;
+        maze.GetComponent<MazeScript>().EndMaze();
     }
 
     public IEnumerator AttemptRepair()
