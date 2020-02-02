@@ -9,12 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6853714369266215061}
+  - component: {fileID: 5331198597070188213}
   - component: {fileID: 5471321736961294068}
-  - component: {fileID: 6298657051037315145}
   - component: {fileID: 8304203734845644728}
   - component: {fileID: 8304203734845644732}
   m_Layer: 0
-  m_Name: RobotBrain
+  m_Name: RobotMaze
   m_TagString: Left
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34,6 +34,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5331198597070188213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7706971703298239652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b7a060b93274c69a609e38bfad97f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: 0
+  runSpeed: 2
 --- !u!212 &5471321736961294068
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -71,7 +85,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1333982077
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0, g: 0.38386106, b: 1, a: 1}
@@ -84,22 +98,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6298657051037315145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7706971703298239652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ab7095232c82f94bba5b1619bc23ebf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  runSpeed: 2
-  Player: 0
-  AttackPrefab: {fileID: 8897381419688826097, guid: 12b59cbf31e5149458f5b4f3edb9d48a,
-    type: 3}
 --- !u!50 &8304203734845644728
 Rigidbody2D:
   serializedVersion: 4

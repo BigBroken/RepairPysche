@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5326534908918160353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6475963307748318411}
+  m_Layer: 0
+  m_Name: MazePlayerSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6475963307748318411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5326534908918160353}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.13, z: 0}
+  m_LocalScale: {x: 0.44627342, y: 0.6610897, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5759051657943489079}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5759051657943489077
 GameObject:
   m_ObjectHideFlags: 0
@@ -31,6 +61,7 @@ Transform:
   m_LocalScale: {x: 2.2407787, y: 1.512654, z: 1}
   m_Children:
   - {fileID: 1680950181689479728}
+  - {fileID: 6475963307748318411}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -118,6 +149,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 245f4a8084a6242ceb430258b152be6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mazePlayerPrefab: {fileID: 0}
+  mazePlayerReal: {fileID: 0}
+  brainController: {fileID: 0}
   tiles:
   - {fileID: 6163125107640251579, guid: 69140b571920b461ca18e900647f66aa, type: 3}
   - {fileID: 49290328762365561, guid: 52958f0391aec483795eef3c660e21ee, type: 3}

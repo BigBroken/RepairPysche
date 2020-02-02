@@ -2,20 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MovementController
 {
     Rigidbody2D body;
 
-    float horizontal;
-    float vertical;
-
-    public float runSpeed = 20.0f;
-    public enum SelectedPlayer { Player1, Player2 };
-    public SelectedPlayer Player;
     public GameObject AttackPrefab;
     public List<NodeScript> StartingNodes;
     public List<NodeScript> CapturedNodes;
-    public NodeScript node;
+    public GameObject node;
+    public NodeScript nodeScript;
     public bool AmRobot;
 
     //UseRepair defines
@@ -24,19 +19,13 @@ public class PlayerController : MonoBehaviour
     public bool isRepairing = false;
     public GameObject maze;
 
-    void Start()
-    {
-        body = GetComponent<Rigidbody2D>();
-    }
-
     void Update()
     {
         if (Player == SelectedPlayer.Player1)
         {
             if (!isRepairing)
             {
-                horizontal = Input.GetAxisRaw("Player1Horizontal");
-                vertical = Input.GetAxisRaw("Player1Vertical");
+                player1Movement();
             }
             
             if (Input.GetButtonDown("Player1Attack"))
@@ -64,8 +53,7 @@ public class PlayerController : MonoBehaviour
         {
             if (!isRepairing)
             {
-                horizontal = Input.GetAxisRaw("Player2Horizontal");
-                vertical = Input.GetAxisRaw("Player2Vertical");
+                player2Movement();
             }
             
             if (Input.GetButtonDown("Player2Attack"))
@@ -114,7 +102,7 @@ public class PlayerController : MonoBehaviour
 
     public IEnumerator AttemptRepair()
     {
-        float repairTime = node.repairTime;
+        float repairTime = nodeScript.repairTime;
         string playerInput;
         if(SelectedPlayer.Player1 == Player)
         {
@@ -123,29 +111,25 @@ public class PlayerController : MonoBehaviour
         {
             playerInput = "Player2Repair";
         }
-        while (Input.GetButton(playerInput) && timer < node.repairTime)
+        while (Input.GetButton(playerInput) && timer < nodeScript.repairTime)
         {
             //update repair timer
             timer += Time.deltaTime;
             yield return new WaitForEndOfFrame();
         }
-        if(timer > node.repairTime)
+        if(timer > nodeScript.repairTime)
         {
             if (AmRobot)
             {
-                node.changeState(NodeScript.NodeState.RobotControlled);
+                nodeScript.changeState(NodeScript.NodeState.RobotControlled);
             } else
             {
-                node.changeState(NodeScript.NodeState.FairyControlled);
+                nodeScript.changeState(NodeScript.NodeState.FairyControlled);
             }
         }
         yield return null;
     }
 
-    private void FixedUpdate()
-    {
-        body.velocity = new Vector2(horizontal, vertical).normalized * runSpeed;
-    }
     public void NodeDamaged(NodeScript.NodeType type)
     {
         switch (type)
