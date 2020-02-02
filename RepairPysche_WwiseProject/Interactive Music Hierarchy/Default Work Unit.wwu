@@ -227,6 +227,13 @@
 									</SequenceList>
 								</MusicTrack>
 								<MusicTrack Name="part1_drums" ID="{808D44A9-2D80-4B22-8982-DDFAECCE2D07}" ShortID="207882647">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -419,6 +426,13 @@
 									</SequenceList>
 								</MusicTrack>
 								<MusicTrack Name="Fantasy_Bass_Segment_1" ID="{51CDEA67-2046-4B84-91A9-E024E6C6FBEA}" ShortID="491778793">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -611,6 +625,13 @@
 									</SequenceList>
 								</MusicTrack>
 								<MusicTrack Name="Fantasy_Lead_Segment_1" ID="{EE88A13A-1E67-408D-BA4A-CA582608A9EB}" ShortID="960867749">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -675,6 +696,13 @@
 									</SequenceList>
 								</MusicTrack>
 								<MusicTrack Name="Fantasy_Pad_Segment_1" ID="{45B5EBE9-D8AB-41E6-AC85-DE651CF2C02C}" ShortID="529299060">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -832,6 +860,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="Fantasy_Bass_Segment_2" ID="{CF181D61-BB91-46B2-88E8-5E93AA4EFF70}" ShortID="821287307">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -1152,6 +1187,13 @@
 									</SequenceList>
 								</MusicTrack>
 								<MusicTrack Name="Fantasy_Percussion_Segment_2" ID="{93CD68C9-3465-416F-9080-8DD931A1B996}" ShortID="183027978">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -1216,6 +1258,13 @@
 									</SequenceList>
 								</MusicTrack>
 								<MusicTrack Name="part2_bass" ID="{679A5AC4-B17A-440A-A0DB-04B4387ACE41}" ShortID="220479772">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -1344,6 +1393,13 @@
 									</SequenceList>
 								</MusicTrack>
 								<MusicTrack Name="part2_countermelody" ID="{1A370B60-F681-490C-B89D-A136422DB532}" ShortID="228700228">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -1408,6 +1464,13 @@
 									</SequenceList>
 								</MusicTrack>
 								<MusicTrack Name="part2_drums" ID="{5445AADF-4FF5-4652-8EF4-2D6BBA780547}" ShortID="51985172">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -1472,6 +1535,13 @@
 									</SequenceList>
 								</MusicTrack>
 								<MusicTrack Name="part2_melody" ID="{8920DCF8-3023-4216-89EA-CD91DEA1F569}" ShortID="1024186373">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -1880,6 +1950,13 @@
 									</SequenceList>
 								</MusicTrack>
 								<MusicTrack Name="part3_melody" ID="{9509C8AE-B48A-4BFD-A1D8-75EE3CA6314B}" ShortID="655490622">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -2008,6 +2085,13 @@
 									</SequenceList>
 								</MusicTrack>
 								<MusicTrack Name="Fantasy_Bass_Segment_3" ID="{6DEE9AC7-EEE6-41F7-819A-1B5AE69C3865}" ShortID="859291912">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -2200,6 +2284,13 @@
 									</SequenceList>
 								</MusicTrack>
 								<MusicTrack Name="Fantasy_Lead_Segment_3" ID="{272C4779-72AF-4524-AA5A-9727104E8160}" ShortID="844545965">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -2416,6 +2507,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="Fantasy_Bass_Segment_4" ID="{838B7BC1-A2B9-4DAE-A7E1-0D68506B8013}" ShortID="326566369">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -2608,6 +2706,13 @@
 									</SequenceList>
 								</MusicTrack>
 								<MusicTrack Name="Fantasy_Leadl_Segment_4" ID="{B799A2CB-F9EB-4D8F-BC26-99DD01C1C6A5}" ShortID="76437353">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -2928,6 +3033,13 @@
 									</SequenceList>
 								</MusicTrack>
 								<MusicTrack Name="part4_countermelody" ID="{F93C7283-C2F4-487F-B96B-3674D3F58AF6}" ShortID="335218036">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -3056,6 +3168,13 @@
 									</SequenceList>
 								</MusicTrack>
 								<MusicTrack Name="part4_melody" ID="{7291821B-4C47-4B87-B27A-F7046665BCA9}" ShortID="622061055">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
@@ -3212,7 +3331,6 @@
 						<MusicPlaylistItem Name="" ID="{1A958265-DDCB-42CD-B47C-01AEB46F0C56}" ShortID="879938227">
 							<PropertyList>
 								<Property Name="LoopCount" Type="int16" Value="0"/>
-								<Property Name="PlayMode" Type="int16" Value="2"/>
 							</PropertyList>
 							<ChildrenList>
 								<MusicPlaylistItem Name="" ID="{0FC7BAE7-80B9-4A35-88C3-BC4407465BFC}" ShortID="376364857">
