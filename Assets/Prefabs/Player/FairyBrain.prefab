@@ -101,7 +101,10 @@ MonoBehaviour:
   Player: 1
   AttackPrefab: {fileID: 8897381419688826097, guid: 12b59cbf31e5149458f5b4f3edb9d48a,
     type: 3}
+  StartingNodes: []
+  CapturedNodes: []
   node: {fileID: 0}
+  AmRobot: 0
   repairTime: 5
   timer: 0
 --- !u!50 &4628981003793882736
@@ -158,7 +161,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4396463774018141856}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f4ee05c581a21940bcc714834e08b55, type: 3}
   m_Name: 
