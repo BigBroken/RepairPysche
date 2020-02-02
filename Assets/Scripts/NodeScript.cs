@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NodeScript : MonoBehaviour
 {
-
+    public int nodeNumber;
     public enum NodeState {Destroyed, RobotControlled, FairyControlled,}
 	public bool startedLeft = true;
 	public bool controlledLeft = true;
@@ -76,18 +76,21 @@ public class NodeScript : MonoBehaviour
         {
             case NodeState.Destroyed:
                 {
+                    MusicStates.instance.nodeOneState(nodeNumber, "Destroyed");
                     // your code 
                     // for MULTIPLY operator
                     break;
                 }
             case NodeState.RobotControlled:
                 {
+                    MusicStates.instance.nodeOneState(nodeNumber, "Captured_Robot");
                     // your code 
                     // for MULTIPLY operator
                     break;
                 }
             case NodeState.FairyControlled:
                 {
+                    MusicStates.instance.nodeOneState(nodeNumber, "Captured_Fairy");
                     // your code 
                     // for MULTIPLY operator
                     break;

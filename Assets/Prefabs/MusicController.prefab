@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4834149377758900195}
   - component: {fileID: 6507147813902305357}
+  - component: {fileID: -7642884361147597939}
   m_Layer: 0
   m_Name: MusicController
   m_TagString: Untagged
@@ -48,3 +49,15 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: d64b03702ffd6a94d993eb3e52f4b489,
       type: 2}
+--- !u!114 &-7642884361147597939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533848915959904018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e342f112be8d344b5e32c360b7ca5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
