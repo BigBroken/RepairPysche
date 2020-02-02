@@ -25,7 +25,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Fairy_Movent" ID="{8C10EDD2-07CC-434A-8575-DBD16DECB56A}">
+				<Event Name="Play_Fairy_Movement" ID="{8C10EDD2-07CC-434A-8575-DBD16DECB56A}">
 					<ChildrenList>
 						<Action Name="" ID="{A0FF7FBB-A8A2-49DE-8133-71395B323391}" ShortID="255708971">
 							<ReferenceList>
@@ -42,6 +42,94 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="RobotMovement" ID="{604A1D32-104C-4227-A0FF-FD4428825D44}" WorkUnitID="{74F5E321-434F-4B7B-801D-697D43CA19AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Robot_Attack" ID="{E293D64A-D49C-41B4-A697-B5997469F48D}">
+					<ChildrenList>
+						<Action Name="" ID="{1D38AE89-3449-413B-B3C4-D01604DDAE91}" ShortID="711024075">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Attack" ID="{26BC0BE5-0B86-4DFB-B78D-4F7926471386}" WorkUnitID="{74F5E321-434F-4B7B-801D-697D43CA19AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Robot_Damaged" ID="{DE2C2932-A244-414E-9065-40693897D521}">
+					<ChildrenList>
+						<Action Name="" ID="{EF8BE021-7EEF-4855-B691-7BFF5BD49E88}" ShortID="723096408">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Damaged" ID="{14E9F40F-D640-4008-B8CE-EB6E0EFCCC43}" WorkUnitID="{74F5E321-434F-4B7B-801D-697D43CA19AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Robot_Lose" ID="{044A28D9-DBB9-4C5E-90E3-E2732BF5A582}">
+					<ChildrenList>
+						<Action Name="" ID="{4701C103-4AE2-4C61-8FDB-FEB71546A997}" ShortID="459924832">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lose" ID="{E5D9D5C0-C7A3-4EA5-ABC6-1EA81E13248E}" WorkUnitID="{74F5E321-434F-4B7B-801D-697D43CA19AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Robot_Win" ID="{06175B95-1FEC-4526-800A-21D483E9BE8D}">
+					<ChildrenList>
+						<Action Name="" ID="{0EE7283B-1491-49F1-815E-D0483EB31ABE}" ShortID="708352326">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Win" ID="{03177E9B-8CA7-4B6A-8B4B-9487781145ED}" WorkUnitID="{74F5E321-434F-4B7B-801D-697D43CA19AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fairy_Attack" ID="{09A2A13D-E403-4EA2-ABBC-1426CD034E4A}">
+					<ChildrenList>
+						<Action Name="" ID="{225FA106-F3FC-4128-AB68-A598B437ACC8}" ShortID="148767175">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Attacks" ID="{ECB2B580-E01C-4F69-9843-7A283447AC47}" WorkUnitID="{74F5E321-434F-4B7B-801D-697D43CA19AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fairy_Damaged" ID="{6ED4EF99-C810-4F59-8E63-213E456B048B}">
+					<ChildrenList>
+						<Action Name="" ID="{B1F5200B-1BC9-4374-A657-33481251FCF9}" ShortID="685864013">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Damaged" ID="{66A32B51-092D-4059-953A-E168EFC98CED}" WorkUnitID="{74F5E321-434F-4B7B-801D-697D43CA19AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fairy_Lose" ID="{A795193F-71C9-4F81-A795-D4A5A7660131}">
+					<ChildrenList>
+						<Action Name="" ID="{B4E71773-29CC-4C71-92BB-D09463900E13}" ShortID="143377685">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lose" ID="{DF92F8DE-02D0-4229-B328-D6841E193DB0}" WorkUnitID="{74F5E321-434F-4B7B-801D-697D43CA19AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fairy_Win" ID="{534F5869-CD33-4BF0-B679-501D195A4D0B}">
+					<ChildrenList>
+						<Action Name="" ID="{3179686E-47DC-45DD-A7E0-19F80A252555}" ShortID="460574435">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Win" ID="{82D4F776-E1FB-4CED-ADED-C492AF6B46A4}" WorkUnitID="{74F5E321-434F-4B7B-801D-697D43CA19AC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
