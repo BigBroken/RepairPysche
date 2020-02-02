@@ -21,7 +21,7 @@
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1793296491" Name="Play_Blip" ObjectPath="\Events\Default Work Unit\Play_Blip" DurationType="OneShot" DurationMin="2.900000" DurationMax="2.900000"/>
+				<Event Id="1793296491" Name="Play_Blip" ObjectPath="\Events\Default Work Unit\Play_Blip" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
