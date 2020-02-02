@@ -357,6 +357,12 @@ PrefabInstance:
       propertyPath: m_MaskInteraction
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5759051657943489076, guid: 9fc7a6fedac224eaaabc7bff6d7418b2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 37920d50fb1cf4d72bd349e7765fde7b,
+        type: 3}
     - target: {fileID: 5759051657943489077, guid: 9fc7a6fedac224eaaabc7bff6d7418b2,
         type: 3}
       propertyPath: m_Name
