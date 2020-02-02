@@ -29,9 +29,22 @@ public class MovementController : MonoBehaviour
         horizontal = Input.GetAxisRaw("Player2Horizontal");
         vertical = Input.GetAxisRaw("Player2Vertical");
     }
-
-    private void FixedUpdate()
+    
+    protected void stopMovement()
     {
-        body.velocity = new Vector2(horizontal, vertical).normalized * runSpeed;
+        body.velocity = new Vector2();
+    }
+
+    void FixedUpdate()
+    {
+        if (ShouldMove()) {
+            body.velocity = new Vector2(horizontal, vertical).normalized * runSpeed;
+        } else {
+            stopMovement();
+        }
+    }
+    
+    protected virtual bool ShouldMove() {
+        return true;
     }
 }
