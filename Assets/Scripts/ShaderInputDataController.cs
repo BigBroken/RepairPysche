@@ -16,6 +16,6 @@ public class ShaderInputDataController : MonoBehaviour
         Camera targetCamera = Camera.current ? Camera.current : Camera.main;
         Vector3 screenPos = targetCamera.WorldToScreenPoint(transform.position);
         Renderer renderer = GetComponent<Renderer>();
-        renderer.sharedMaterial.SetVector("_ObjectPosition", screenPos);
+        renderer.material.SetVector("_ObjectPosition", screenPos);
     }
 }
