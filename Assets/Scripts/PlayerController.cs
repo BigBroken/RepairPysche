@@ -127,9 +127,9 @@ public class PlayerController : MovementController
     {
         int captured = captureNodeCount();
         
-        if (captured == 3 || captured == 4) {
+        if (captured == 4 && false) {
             return flipQuad;
-        } else if (captured == 5) {
+        } else if (captured == 5 || true) {
             return garbleQuad;
         } else {
             return null;
@@ -140,7 +140,7 @@ public class PlayerController : MovementController
     {
         int captured = captureNodeCount();
         
-        if (captured == 3 || captured == 4) {
+        if (captured == 4) {
             return flipMazeQuad;
         } else if (captured == 5) {
             return garbleMazeQuad;
