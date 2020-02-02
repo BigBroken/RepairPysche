@@ -46,7 +46,7 @@ public class VocalController : MonoBehaviour
 
     }
 
-
+/*
     public void fairyAttack() { AkSoundEngine.PostEvent(fAttack, gameObject); }
 
     public void fairyDamage() { AkSoundEngine.PostEvent(fDamage, gameObject); }
@@ -62,5 +62,5 @@ public class VocalController : MonoBehaviour
     public void robotWin() { AkSoundEngine.PostEvent(rWin, gameObject); }
 
     public void robotLose() { AkSoundEngine.PostEvent(rLose, gameObject); }
-
+*/
 }
