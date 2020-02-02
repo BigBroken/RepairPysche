@@ -25,6 +25,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Fairy_Movent" ID="{8C10EDD2-07CC-434A-8575-DBD16DECB56A}">
+					<ChildrenList>
+						<Action Name="" ID="{A0FF7FBB-A8A2-49DE-8133-71395B323391}" ShortID="255708971">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FaryMove" ID="{DE11633A-7D26-45A5-A75C-71EFFB23574F}" WorkUnitID="{74F5E321-434F-4B7B-801D-697D43CA19AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Robot_Movement" ID="{E7D48798-CBCC-444E-9F9B-3AE714309DF4}">
+					<ChildrenList>
+						<Action Name="" ID="{E4A4024F-DAF1-4B77-8D96-8DAFD7A48620}" ShortID="472097172">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RobotMovement" ID="{604A1D32-104C-4227-A0FF-FD4428825D44}" WorkUnitID="{74F5E321-434F-4B7B-801D-697D43CA19AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

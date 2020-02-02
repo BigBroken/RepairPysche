@@ -42,6 +42,360 @@
 								<ActiveSource Name="Wwise Sine" ID="{43DF5FB8-C0F8-4865-B562-798B99AF04FA}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<ActorMixer Name="Fairy" ID="{DB0917F9-69A3-4E7B-A42A-ABAE09C5A455}" ShortID="265482865">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="FaryMove" ID="{DE11633A-7D26-45A5-A75C-71EFFB23574F}" ShortID="136398675">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Fairy_Movement" ID="{8FDC81C2-FCD7-4D91-9F70-C4FF2F9F430D}" ShortID="123685401">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{7FACCA5E-F7C2-49F0-8BD0-8F1EE8A162BA}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="152"/>
+																	<Property Name="Min" Type="Real64" Value="-101"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fairy_Movement" ID="{13CE729A-B723-4808-AA21-7E8612EB08B3}" ShortID="1065491947">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.49852642655236"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Fairy_Movement.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fairy_Movement" ID="{13CE729A-B723-4808-AA21-7E8612EB08B3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Fairy_Movement" ID="{8FDC81C2-FCD7-4D91-9F70-C4FF2F9F430D}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Robot" ID="{79504568-0307-4006-BB15-E21D8222CA95}" ShortID="408151039">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="RobotMovement" ID="{604A1D32-104C-4227-A0FF-FD4428825D44}" ShortID="3462661">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Motor" ID="{B6D9A943-A087-4C6F-AA9F-AAE6618D9B0A}" ShortID="203845944">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Robot_Motor_1" ID="{9FCE560E-AEBD-459C-9800-4457CE7B91FB}" ShortID="842095532">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Robot_Motor_1" ID="{BB9EC692-6EDD-4E74-B09D-892FD5581946}" ShortID="2879953">
+															<Language>SFX</Language>
+															<AudioFile>Robot_Motor_1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Robot_Motor_1" ID="{BB9EC692-6EDD-4E74-B09D-892FD5581946}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Robot_Motor_2" ID="{7919E7E4-39BB-459C-919E-0EF245C04A3B}" ShortID="556277837">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Robot_Motor_2" ID="{3421F1EA-8514-4214-842C-669B0C1BF111}" ShortID="621530174">
+															<Language>SFX</Language>
+															<AudioFile>Robot_Motor_2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Robot_Motor_2" ID="{3421F1EA-8514-4214-842C-669B0C1BF111}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Robot_Motor_3" ID="{BFAAAD5C-4AC4-48DD-8364-05BD7AA040A8}" ShortID="101515117">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Robot_Motor_3" ID="{3CAFBCD2-AB6D-45A3-9E4A-AC2C6465F93B}" ShortID="1052290054">
+															<Language>SFX</Language>
+															<AudioFile>Robot_Motor_3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Robot_Motor_3" ID="{3CAFBCD2-AB6D-45A3-9E4A-AC2C6465F93B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Robot_Motor_4" ID="{1E2811AA-2322-4879-B7E0-012C2894290F}" ShortID="80871615">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Robot_Motor_4" ID="{94C28F83-5C87-423E-9D6F-47BCF1591160}" ShortID="629322227">
+															<Language>SFX</Language>
+															<AudioFile>Robot_Motor_4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Robot_Motor_4" ID="{94C28F83-5C87-423E-9D6F-47BCF1591160}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Robot_Motor_5" ID="{F520392F-FD6A-4EA1-9F78-4562DBDD780F}" ShortID="471662216">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Robot_Motor_5" ID="{832EDBE8-D4D8-4BC6-B877-12FDD09B4299}" ShortID="599158876">
+															<Language>SFX</Language>
+															<AudioFile>Robot_Motor_5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Robot_Motor_5" ID="{832EDBE8-D4D8-4BC6-B877-12FDD09B4299}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Robot_Motor_6" ID="{0EB5CBAA-4506-4402-95F7-46392E49AAA7}" ShortID="598766657">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Robot_Motor_6" ID="{5B7EA4F4-F0E4-4A55-B6E5-D780EF5A97B1}" ShortID="753916181">
+															<Language>SFX</Language>
+															<AudioFile>Robot_Motor_6.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Robot_Motor_6" ID="{5B7EA4F4-F0E4-4A55-B6E5-D780EF5A97B1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Squish" ID="{72F6C1AD-24A1-4924-8CB4-C17CE8CD78DE}" ShortID="136663499">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>0.1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Robot_Squish_1" ID="{05972DC1-FD14-4512-802C-6DBB4B6C020D}" ShortID="596902673">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Robot_Squish_1" ID="{00AC38AE-5B85-4891-A75E-A6E17C4A1B87}" ShortID="585816851">
+															<Language>SFX</Language>
+															<AudioFile>Robot_Squish_1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Robot_Squish_1" ID="{00AC38AE-5B85-4891-A75E-A6E17C4A1B87}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Robot_Squish_2" ID="{4FC45355-2609-4167-A22D-881F36DAA8EC}" ShortID="841102324">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Robot_Squish_2" ID="{21E6B970-F0F2-4373-87DB-5EDE14A5E39D}" ShortID="940508235">
+															<Language>SFX</Language>
+															<AudioFile>Robot_Squish_2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Robot_Squish_2" ID="{21E6B970-F0F2-4373-87DB-5EDE14A5E39D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Robot_Squish_3" ID="{11E4F24F-D20F-45D1-A6DF-8F1CE224B9FE}" ShortID="883886636">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Robot_Squish_3" ID="{22F5B998-7439-4797-88DC-0D4F16773EA5}" ShortID="338018982">
+															<Language>SFX</Language>
+															<AudioFile>Robot_Squish_3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Robot_Squish_3" ID="{22F5B998-7439-4797-88DC-0D4F16773EA5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Robot_Squish_4" ID="{F3D3F1E3-6EAA-4711-AB3B-EAD2C4DA2041}" ShortID="931550149">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Robot_Squish_4" ID="{BF98B739-BB7F-4C35-9E8B-5169144397A9}" ShortID="515950565">
+															<Language>SFX</Language>
+															<AudioFile>Robot_Squish_4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Robot_Squish_4" ID="{BF98B739-BB7F-4C35-9E8B-5169144397A9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Robot_Squish_5" ID="{210087DF-71F2-44C1-96E8-E0BB4BA9B244}" ShortID="28631745">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Robot_Squish_5" ID="{FE9CE55D-97D4-4244-8D8C-C8AAE21B59EC}" ShortID="700534875">
+															<Language>SFX</Language>
+															<AudioFile>Robot_Squish_5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Robot_Squish_5" ID="{FE9CE55D-97D4-4244-8D8C-C8AAE21B59EC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Robot_Squish_6" ID="{9DF08A27-16F1-4CE6-B3D0-D98CDFA5E828}" ShortID="734790906">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Robot_Squish_6" ID="{D0029FF3-2382-49DB-8ED3-90D8349F6417}" ShortID="1020544144">
+															<Language>SFX</Language>
+															<AudioFile>Robot_Squish_6.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Robot_Squish_6" ID="{D0029FF3-2382-49DB-8ED3-90D8349F6417}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
