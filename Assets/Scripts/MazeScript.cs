@@ -35,7 +35,10 @@ public class MazeScript : MonoBehaviour
         mazePlayerReal = Instantiate(mazePlayerPrefab, transform);
         mazePlayerReal.transform.localPosition = new Vector3(0, -1.13f, 0);
         mazePlayerReal.GetComponent<MovementController>().currentQuad = currentQuad;
-        currentQuad.SetActive(true);
+        
+        if (currentQuad != null) {
+            currentQuad.SetActive(true);
+        }
     }
 
     public void EndMaze()
