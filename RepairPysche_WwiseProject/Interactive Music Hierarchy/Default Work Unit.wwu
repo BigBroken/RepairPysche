@@ -252,7 +252,7 @@
 						</MusicSegment>
 						<MusicSegment Name="Segment_2" ID="{FB0169B7-5347-4E50-8D7E-A12916DC5A55}" ShortID="787513583">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="15428.5487528345"/>
+								<Property Name="EndPosition" Type="Real64" Value="15857.1201814059"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>6</Value>
@@ -438,6 +438,41 @@
 														<Property Name="FadeOutMode" Type="int16" Value="0"/>
 													</PropertyList>
 													<AudioSourceRef Name="Fantasy_Pad_Segment_2" ID="{0E314F5F-6A1E-4992-A76C-A71FD5A06A45}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Percussion_Segment_2" ID="{93CD68C9-3465-416F-9080-8DD931A1B996}" ShortID="183027978">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Percussion_Segment_2" ID="{1262258E-CDE0-42A3-A0A1-E5C0B43C74DD}" ShortID="922268681">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Percussion_Segment_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8C7B81A6-6F0E-4954-B38C-8922CCC76C26}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{5F8A9B39-9159-4A7F-B11F-BBCDBB0FD3DF}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Percussion_Segment_2" ID="{7F1BFBA7-C0D7-48C0-9935-739E51241D8B}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="15857.1201814059"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Percussion_Segment_2" ID="{1262258E-CDE0-42A3-A0A1-E5C0B43C74DD}"/>
 												</MusicClip>
 											</ClipList>
 										</MusicTrackSequence>
