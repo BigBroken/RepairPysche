@@ -48,6 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: 1
+  currentQuad: {fileID: 0}
   runSpeed: 2
 --- !u!212 &2024864245717282032
 SpriteRenderer:
@@ -133,7 +134,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.040949225, y: -0.027299762}
+  m_Offset: {x: -0.0794037, y: 0.08606118}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -144,7 +145,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.343949, y: 2.917236}
+  m_Size: {x: 0.6941552, y: 0.6047816}
   m_EdgeRadius: 0
 --- !u!114 &-4053825283859986258
 MonoBehaviour:
