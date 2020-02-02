@@ -6,6 +6,7 @@
 				<SoundBank Name="Main_Soundbank" ID="{63E20E3D-CA4D-4980-9CE4-8D9FD1F6672F}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Blip" ID="{204AEC82-ADBA-4298-97A9-74C326D2BE67}" WorkUnitID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Main_music" ID="{21266905-3254-49AC-86D7-3747D91D4A2C}" WorkUnitID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

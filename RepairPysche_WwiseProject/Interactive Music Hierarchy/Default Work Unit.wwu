@@ -41,11 +41,45 @@
 											<AudioFile>part1_bass.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_5" ID="{89716905-1D7B-49B6-843B-82D0A3FDBE17}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{3E645B09-5FD7-4477-8261-9496D9249436}"/>
+												<CustomState Name="" ID="{27A7D3FA-CE43-4832-8366-1E4DAF575D3F}" ShortID="157033242">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{2A10DA66-D54B-48DA-ACDB-34708541E241}"/>
+												<CustomState Name="" ID="{1037241D-DBD4-4E4A-89A4-E001704CDFB1}" ShortID="692371484">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{70D06A5A-34E1-4E28-A48B-B234920A23AC}"/>
+												<CustomState Name="" ID="{14C84DD4-5FA0-4031-AAB7-4288349B2ACC}" ShortID="966769424"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{A63951CE-E128-4B02-8E72-DAF25409FF51}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{B6E6F193-1CB6-422F-A63A-7FBE98ABD748}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
 											<TransitionInfo/>
 										</MusicTransition>
 									</TransitionList>
@@ -76,6 +110,35 @@
 											<AudioFile>part1_chords.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_6" ID="{29341EB5-99BF-478B-AE1D-2EB18ED7BE36}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{2252E2DF-683D-4489-A41C-41212F8CE0C1}"/>
+												<CustomState Name="" ID="{1D27B4A7-F6BB-42C3-B5D7-C5C86F56BAB7}" ShortID="305399878"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{4B602BA9-B9C6-4AC5-9CDF-DA4A8EF87E86}"/>
+												<CustomState Name="" ID="{9AEB661D-8928-446A-8BFD-379AFE8B1967}" ShortID="897978157">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{C6A00C3C-1A9B-4D40-A5A0-E29CB3296B87}"/>
+												<CustomState Name="" ID="{2C5326A4-EFC7-4E29-98E4-80C2E51980CB}" ShortID="992002959">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{6DAD218C-5B4E-449D-8467-6630431F5DCC}">
 											<PropertyList>
@@ -111,6 +174,35 @@
 											<AudioFile>part1_countermelody.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_4" ID="{76191639-08DE-47AE-9556-84F27D477E53}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{0A73D687-96C8-487A-997D-48B2D000DC61}"/>
+												<CustomState Name="" ID="{B6059892-CFEB-4F13-8AD4-38B0BC88D2A8}" ShortID="585663353">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{76BB99C2-808A-49C5-B51D-1478ACDCA0C8}"/>
+												<CustomState Name="" ID="{3E0301D4-4868-4134-8147-9AFA67B15F56}" ShortID="801740697"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{589BC312-CBEA-4C2F-BFEE-6FADFAEBFB63}"/>
+												<CustomState Name="" ID="{5A18059D-B1D8-4107-8860-3C27C2B709CC}" ShortID="697043136">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{DD4B578D-E32D-4CEC-B180-8FE7BAEF3C60}">
 											<PropertyList>
@@ -146,6 +238,35 @@
 											<AudioFile>part1_drums.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_2" ID="{3FEAD099-1BC4-47E7-9E2F-3D5ED587AEA6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{E8EBF0BD-AE36-4743-B2C3-0A95C8F25241}"/>
+												<CustomState Name="" ID="{7115F914-C875-4EB2-AB9B-BF34CECC8B2B}" ShortID="821452848">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{82BA73B9-F056-476B-AA39-640387156A3B}"/>
+												<CustomState Name="" ID="{C2147FA0-A51A-41EA-A7C4-88FF804687FF}" ShortID="666098894"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{B8937351-8C7D-4EA1-A6EA-3885615CAB4C}"/>
+												<CustomState Name="" ID="{B6981F02-AFF1-49E9-9D59-8A90812DC851}" ShortID="925778926">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{85672987-48B9-402C-AA34-EF516A1519D3}">
 											<PropertyList>
@@ -181,6 +302,35 @@
 											<AudioFile>part1_melody.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_1" ID="{8DCC7E54-FCBA-4D26-9BF7-3725CEDBF484}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{79598F3F-6E5B-4181-A566-25648A9D3747}"/>
+												<CustomState Name="" ID="{1D306528-B3FF-4262-A8AA-8EE03074FAC3}" ShortID="225774082"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{A195B901-2440-468D-8069-8207876AD7B5}"/>
+												<CustomState Name="" ID="{D0C6B578-B875-4D02-B018-152EB02D81C5}" ShortID="151605910">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{4E5B962E-BBF2-4FE4-9A47-EEA661CB617A}"/>
+												<CustomState Name="" ID="{6C5B2AF8-D77D-4878-872B-B944F5E6B755}" ShortID="549426043">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{E02DE7F3-A97A-4052-BA56-07BFE9F6D783}">
 											<PropertyList>
@@ -216,6 +366,35 @@
 											<AudioFile>part1_rhythmGuitarThingy.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Node_3" ID="{AEDBA2CB-7673-43C3-BD60-7DEE893FF53A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{16E48E9B-7326-429C-8C66-BDBDEEF3102A}"/>
+												<CustomState Name="" ID="{E59D07B7-DE2E-4FB7-84BE-8D881979675F}" ShortID="757606011">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{B63CB346-5184-477A-AA12-88619D6E28DA}"/>
+												<CustomState Name="" ID="{E31CBECE-B57D-45EA-9EC4-C69E2CD1AC3D}" ShortID="212114035">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{9262B6EB-4436-4CFB-8A24-B4F8570905A7}"/>
+												<CustomState Name="" ID="{BC58DB3A-C21B-4BA2-88EF-D87CAAE79EEB}" ShortID="819561684"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{27D055E6-CF74-4D96-975C-4E557BC1F709}">
 											<PropertyList>
@@ -239,20 +418,404 @@
 										</MusicTrackSequence>
 									</SequenceList>
 								</MusicTrack>
+								<MusicTrack Name="Fantasy_Bass_Segment_1" ID="{51CDEA67-2046-4B84-91A9-E024E6C6FBEA}" ShortID="491778793">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Bass_Segment_1" ID="{79DB979C-FA60-421A-B4D8-83A9BE5CF22B}" ShortID="1034891665">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Bass_Segment_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_5" ID="{89716905-1D7B-49B6-843B-82D0A3FDBE17}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{3E645B09-5FD7-4477-8261-9496D9249436}"/>
+												<CustomState Name="" ID="{48D842FC-BBF3-4FDF-A928-BF293F03A388}" ShortID="931797858"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{2A10DA66-D54B-48DA-ACDB-34708541E241}"/>
+												<CustomState Name="" ID="{7D385E3E-E00F-4340-89FA-D5EE45701820}" ShortID="669688667">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{70D06A5A-34E1-4E28-A48B-B234920A23AC}"/>
+												<CustomState Name="" ID="{EE432E56-B886-4326-A336-56678F5D3132}" ShortID="67642367">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{048BADFF-C0E1-467C-BED1-272A2135494A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{0C4B3CC8-3631-4794-94CC-EE4ABE444CEF}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Bass_Segment_1" ID="{19EE25EB-32F2-4004-A344-75FC823CEB00}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Bass_Segment_1" ID="{79DB979C-FA60-421A-B4D8-83A9BE5CF22B}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Counter_Segment_1" ID="{659A59B4-57AA-4D8F-9BB1-68FCC2259E84}" ShortID="856444523">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Counter_Segment_1" ID="{5664BB8A-CBFF-4DDE-8F74-478A5CA27265}" ShortID="45051893">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Counter_Segment_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Node_4" ID="{76191639-08DE-47AE-9556-84F27D477E53}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{0A73D687-96C8-487A-997D-48B2D000DC61}"/>
+												<CustomState Name="" ID="{13151EC6-3D3D-4384-805C-CE204E6C6F9C}" ShortID="252298469">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{76BB99C2-808A-49C5-B51D-1478ACDCA0C8}"/>
+												<CustomState Name="" ID="{97038FA8-2312-495B-959C-C2A8656C3E69}" ShortID="901377147">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{589BC312-CBEA-4C2F-BFEE-6FADFAEBFB63}"/>
+												<CustomState Name="" ID="{3226727C-23CD-4C19-88B7-57C3834DC56E}" ShortID="980852457"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{3D26DECC-C42C-46FB-BABD-7A5233AD788E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{AABF87C8-D599-41D7-85EE-82F31EDC54B7}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Counter_Segment_1" ID="{713F86B1-CD06-4362-9180-25E446CCF748}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Counter_Segment_1" ID="{5664BB8A-CBFF-4DDE-8F74-478A5CA27265}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Harmony_Segment_1" ID="{CC606C0E-035F-4714-92AA-2BF6403DD110}" ShortID="774110563">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Harmony_Segment_1" ID="{9B6809C6-2223-4217-A7A3-6BBB562BD06A}" ShortID="277010278">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Harmony_Segment_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_6" ID="{29341EB5-99BF-478B-AE1D-2EB18ED7BE36}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{2252E2DF-683D-4489-A41C-41212F8CE0C1}"/>
+												<CustomState Name="" ID="{DC3D28D4-20EB-43D1-99C0-0F11A0AD918C}" ShortID="255585808">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{4B602BA9-B9C6-4AC5-9CDF-DA4A8EF87E86}"/>
+												<CustomState Name="" ID="{287838F0-6E17-45F2-B8AF-8054A6115A44}" ShortID="106917155">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{C6A00C3C-1A9B-4D40-A5A0-E29CB3296B87}"/>
+												<CustomState Name="" ID="{3BC27759-E46D-49A3-BE46-61E0CF56C09C}" ShortID="476863109"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5246FDDC-B916-4670-8FAF-1BF8530785F4}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{34DF003A-5BF1-4F3E-9EE6-1CFF143406F4}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Harmony_Segment_1" ID="{1298BD8E-94B7-4A33-BE5C-C5EF08060B3B}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Harmony_Segment_1" ID="{9B6809C6-2223-4217-A7A3-6BBB562BD06A}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Lead_Segment_1" ID="{EE88A13A-1E67-408D-BA4A-CA582608A9EB}" ShortID="960867749">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Lead_Segment_1" ID="{235AFBBA-2932-4A47-9B75-05D8EAA7D42A}" ShortID="817585001">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Lead_Segment_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_1" ID="{8DCC7E54-FCBA-4D26-9BF7-3725CEDBF484}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{79598F3F-6E5B-4181-A566-25648A9D3747}"/>
+												<CustomState Name="" ID="{C3F26F00-773D-4397-AE52-15BB94789CC4}" ShortID="574819053">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{A195B901-2440-468D-8069-8207876AD7B5}"/>
+												<CustomState Name="" ID="{D9D7EFE4-7280-4144-847C-62A0016C5048}" ShortID="375626038"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{4E5B962E-BBF2-4FE4-9A47-EEA661CB617A}"/>
+												<CustomState Name="" ID="{B8B89525-DD2B-4D8B-BB8A-1371D8AE31F4}" ShortID="856370034">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D194F29B-37CD-485E-BBCB-C443EA40D766}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{18F9E6E5-A5FF-42E2-AD25-3103709BEABE}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Lead_Segment_1" ID="{6D5A7DBD-F66E-4ECC-B08F-C9A249C3A472}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Lead_Segment_1" ID="{235AFBBA-2932-4A47-9B75-05D8EAA7D42A}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Pad_Segment_1" ID="{45B5EBE9-D8AB-41E6-AC85-DE651CF2C02C}" ShortID="529299060">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Pad_Segment_1" ID="{ACF3627F-C6C2-4C50-84FD-C7A9A8AE42CC}" ShortID="940770727">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Pad_Segment_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_3" ID="{AEDBA2CB-7673-43C3-BD60-7DEE893FF53A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{16E48E9B-7326-429C-8C66-BDBDEEF3102A}"/>
+												<CustomState Name="" ID="{E6CB4466-C501-47F8-9366-E372F0F89C53}" ShortID="354580363">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{B63CB346-5184-477A-AA12-88619D6E28DA}"/>
+												<CustomState Name="" ID="{DCEE0B2E-9AFA-4C11-89E2-F2D7ABA249F9}" ShortID="883927203"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{9262B6EB-4436-4CFB-8A24-B4F8570905A7}"/>
+												<CustomState Name="" ID="{0D5401C0-0A32-498E-9A77-4FC2421F8589}" ShortID="226770392">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A4BDE4AE-B466-41B6-AAB1-528E705D56CB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{9A592C69-1BA0-43D3-8473-7B9BE92CF981}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Pad_Segment_1" ID="{416A8C40-FF71-41A9-ADDC-25FB3D5D11AA}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Pad_Segment_1" ID="{ACF3627F-C6C2-4C50-84FD-C7A9A8AE42CC}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Percussion_Segment_1" ID="{02580FDA-A702-4034-8211-0679F3BC03A3}" ShortID="518159577">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Percussion_Segment_1" ID="{F4C152B6-A84E-4F78-98A2-989C6DEBF0F6}" ShortID="924406861">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Percussion_Segment_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_2" ID="{3FEAD099-1BC4-47E7-9E2F-3D5ED587AEA6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{E8EBF0BD-AE36-4743-B2C3-0A95C8F25241}"/>
+												<CustomState Name="" ID="{A19CCC91-B8AA-47FE-B1CF-797C1E5ECBDD}" ShortID="996200416"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{82BA73B9-F056-476B-AA39-640387156A3B}"/>
+												<CustomState Name="" ID="{B394619F-9BF2-4764-A3A5-BFA4159B4052}" ShortID="161079700">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{B8937351-8C7D-4EA1-A6EA-3885615CAB4C}"/>
+												<CustomState Name="" ID="{C441F9A3-8F42-424C-BCAE-FEDE928187B6}" ShortID="882752600">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{CDDDE0F0-039C-4308-8E02-2A625400DE58}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{F0F86662-5BB4-49FB-8992-F56906DE86A6}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Percussion_Segment_1" ID="{F83C64BD-7E05-4081-ABFB-605C295F3F1A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Percussion_Segment_1" ID="{F4C152B6-A84E-4F78-98A2-989C6DEBF0F6}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
 							</ChildrenList>
 							<CueList>
 								<MusicCue Name="Entry Cue" ID="{8CE2066E-9D52-43B5-A4BF-2BB0AB94D258}"/>
 								<MusicCue Name="Exit Cue" ID="{5981EC62-EF27-4BEA-9A4E-85B0D82378DD}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+										<Property Name="TimeMs" Type="Real64" Value="13714.2857142857"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
 						</MusicSegment>
 						<MusicSegment Name="Segment_2" ID="{FB0169B7-5347-4E50-8D7E-A12916DC5A55}" ShortID="787513583">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="15857.1201814059"/>
+								<Property Name="EndPosition" Type="Real64" Value="17729.9319727891"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>6</Value>
@@ -280,6 +843,35 @@
 											<AudioFile>Fantasy_Bass_Segment_2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_5" ID="{89716905-1D7B-49B6-843B-82D0A3FDBE17}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{3E645B09-5FD7-4477-8261-9496D9249436}"/>
+												<CustomState Name="" ID="{31BFB254-D7C6-4922-A61B-656C3DB792A7}" ShortID="182031127"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{2A10DA66-D54B-48DA-ACDB-34708541E241}"/>
+												<CustomState Name="" ID="{746B1040-5891-4861-BD6B-F865A9178086}" ShortID="455456270">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{70D06A5A-34E1-4E28-A48B-B234920A23AC}"/>
+												<CustomState Name="" ID="{8ECCB665-3CDE-409B-B82D-544EEF0817FA}" ShortID="253334632">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{1638A69A-7E2F-4884-9DD2-5D5DCBC6961B}">
 											<PropertyList>
@@ -315,6 +907,35 @@
 											<AudioFile>Fantasy_Counter_Segment_2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_4" ID="{76191639-08DE-47AE-9556-84F27D477E53}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{0A73D687-96C8-487A-997D-48B2D000DC61}"/>
+												<CustomState Name="" ID="{AF480F7D-E4E4-48D2-BDC5-F4FC02721D68}" ShortID="177610319">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{76BB99C2-808A-49C5-B51D-1478ACDCA0C8}"/>
+												<CustomState Name="" ID="{BCE876EF-4F4C-4FEE-ACBE-84FBC183E0A4}" ShortID="89733054">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{589BC312-CBEA-4C2F-BFEE-6FADFAEBFB63}"/>
+												<CustomState Name="" ID="{DC60CD69-F41F-46C6-AC7D-1239688EB314}" ShortID="102447901"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{3CE8BB48-3FF8-427B-A6D7-5F78FE087AB5}">
 											<PropertyList>
@@ -350,6 +971,35 @@
 											<AudioFile>Fantasy_Harmony_Segment_2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_6" ID="{29341EB5-99BF-478B-AE1D-2EB18ED7BE36}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{2252E2DF-683D-4489-A41C-41212F8CE0C1}"/>
+												<CustomState Name="" ID="{5FC81F7C-C6C6-482A-8874-02E8D43EB48F}" ShortID="59055815">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{4B602BA9-B9C6-4AC5-9CDF-DA4A8EF87E86}"/>
+												<CustomState Name="" ID="{D30E2CCD-7ADB-475A-BFFC-725CD5572AAA}" ShortID="276074350">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{C6A00C3C-1A9B-4D40-A5A0-E29CB3296B87}"/>
+												<CustomState Name="" ID="{2144DF18-7507-4CDE-8320-6562FE4E3BF4}" ShortID="1071481448"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{17F6AD96-D543-49B9-9175-2D7C9C169C60}">
 											<PropertyList>
@@ -385,6 +1035,35 @@
 											<AudioFile>Fantasy_Lead_Segment_2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_1" ID="{8DCC7E54-FCBA-4D26-9BF7-3725CEDBF484}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{79598F3F-6E5B-4181-A566-25648A9D3747}"/>
+												<CustomState Name="" ID="{0458EF1D-8B19-45C4-8DAE-3B6EF6562D50}" ShortID="353098224">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{A195B901-2440-468D-8069-8207876AD7B5}"/>
+												<CustomState Name="" ID="{3ABE0032-E793-427A-941F-4FB9B265F2EE}" ShortID="221045767"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{4E5B962E-BBF2-4FE4-9A47-EEA661CB617A}"/>
+												<CustomState Name="" ID="{5BB883A9-683B-46C8-94DE-042C0F449DB1}" ShortID="379346111">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{78039B8B-D9D2-4224-8F25-8998E93437B7}">
 											<PropertyList>
@@ -420,6 +1099,35 @@
 											<AudioFile>Fantasy_Pad_Segment_2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_3" ID="{AEDBA2CB-7673-43C3-BD60-7DEE893FF53A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{16E48E9B-7326-429C-8C66-BDBDEEF3102A}"/>
+												<CustomState Name="" ID="{383B3C3C-9220-49C6-B662-CB5A7988A6F9}" ShortID="711383736">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{B63CB346-5184-477A-AA12-88619D6E28DA}"/>
+												<CustomState Name="" ID="{0FBAE116-37F7-4A10-AD19-57BC549A3C89}" ShortID="427994955"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{9262B6EB-4436-4CFB-8A24-B4F8570905A7}"/>
+												<CustomState Name="" ID="{B563CA56-C658-49CA-AFFC-AA57E9355353}" ShortID="447608735">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{2F318ADB-8569-48DF-A2B6-94409908F0AC}">
 											<PropertyList>
@@ -455,6 +1163,35 @@
 											<AudioFile>Fantasy_Percussion_Segment_2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_2" ID="{3FEAD099-1BC4-47E7-9E2F-3D5ED587AEA6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{E8EBF0BD-AE36-4743-B2C3-0A95C8F25241}"/>
+												<CustomState Name="" ID="{4F0713FA-C7D2-4D66-B86D-EBFA67EB3D16}" ShortID="473253818"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{82BA73B9-F056-476B-AA39-640387156A3B}"/>
+												<CustomState Name="" ID="{6337EBF5-F624-44D4-A1B4-4BD975DE4DAA}" ShortID="180054830">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{B8937351-8C7D-4EA1-A6EA-3885615CAB4C}"/>
+												<CustomState Name="" ID="{51095915-42CA-41C2-A2F5-F855D049EC95}" ShortID="240000698">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{8C7B81A6-6F0E-4954-B38C-8922CCC76C26}">
 											<PropertyList>
@@ -478,13 +1215,397 @@
 										</MusicTrackSequence>
 									</SequenceList>
 								</MusicTrack>
+								<MusicTrack Name="part2_bass" ID="{679A5AC4-B17A-440A-A0DB-04B4387ACE41}" ShortID="220479772">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="part2_bass" ID="{A3D7D075-D83A-4AF0-AC6F-BC58D083ECC3}" ShortID="193637058">
+											<Language>SFX</Language>
+											<AudioFile>part2_bass.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_5" ID="{89716905-1D7B-49B6-843B-82D0A3FDBE17}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{3E645B09-5FD7-4477-8261-9496D9249436}"/>
+												<CustomState Name="" ID="{59E25500-5718-4DD1-8F3C-577FE4D27F98}" ShortID="631052218">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{2A10DA66-D54B-48DA-ACDB-34708541E241}"/>
+												<CustomState Name="" ID="{4F46569D-15C7-4A53-9823-859657386D39}" ShortID="315002606">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{70D06A5A-34E1-4E28-A48B-B234920A23AC}"/>
+												<CustomState Name="" ID="{F8935E67-BD3A-40DE-9D0B-F8D61267C412}" ShortID="667563382"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D6B6124A-5574-4856-97F5-9198A318C729}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{3877B28C-3D34-4941-B099-63962B665214}">
+											<ClipList>
+												<MusicClip Name="part2_bass" ID="{9FD755AD-CF5F-450B-A518-C4C82CE6D624}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="14757.7777777778"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="part2_bass" ID="{A3D7D075-D83A-4AF0-AC6F-BC58D083ECC3}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="part2_chords" ID="{58A02043-F849-4D55-995F-EE6D49C1C367}" ShortID="826442399">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="part2_chords" ID="{8A0CA31C-477A-4617-ABF1-9611FAEEB456}" ShortID="643243708">
+											<Language>SFX</Language>
+											<AudioFile>part2_chords.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_6" ID="{29341EB5-99BF-478B-AE1D-2EB18ED7BE36}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{2252E2DF-683D-4489-A41C-41212F8CE0C1}"/>
+												<CustomState Name="" ID="{614F60C0-66CA-4355-B8C0-E60A0ED9BAC3}" ShortID="593630603"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{4B602BA9-B9C6-4AC5-9CDF-DA4A8EF87E86}"/>
+												<CustomState Name="" ID="{E9DCF40B-3326-4E0A-B8DF-05B9AF8F9ED6}" ShortID="658494857">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{C6A00C3C-1A9B-4D40-A5A0-E29CB3296B87}"/>
+												<CustomState Name="" ID="{14FD4AC7-2125-4D7A-BE86-20AFABBA9C5E}" ShortID="117853533">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7911EBFF-C7CA-4E11-AE8B-5A20CE98BC2C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{58FA4155-528A-4BA2-B336-733350DD02BF}">
+											<ClipList>
+												<MusicClip Name="part2_chords" ID="{90F1A0C5-0547-42A0-BA4F-928E1208B078}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16243.8548752834"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="part2_chords" ID="{8A0CA31C-477A-4617-ABF1-9611FAEEB456}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="part2_countermelody" ID="{1A370B60-F681-490C-B89D-A136422DB532}" ShortID="228700228">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="part2_countermelody" ID="{FEC69FCF-0B1C-469F-8205-2780BB37EF9B}" ShortID="870057438">
+											<Language>SFX</Language>
+											<AudioFile>part2_countermelody.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_4" ID="{76191639-08DE-47AE-9556-84F27D477E53}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{0A73D687-96C8-487A-997D-48B2D000DC61}"/>
+												<CustomState Name="" ID="{3F0FB9ED-2575-4FB3-926F-928E8313B9A9}" ShortID="709612125">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{76BB99C2-808A-49C5-B51D-1478ACDCA0C8}"/>
+												<CustomState Name="" ID="{4C13A114-420A-4E10-BB69-FAD123844EAB}" ShortID="959172862"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{589BC312-CBEA-4C2F-BFEE-6FADFAEBFB63}"/>
+												<CustomState Name="" ID="{31810E90-A9D3-4F60-8E40-F758913FCB98}" ShortID="738335681">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{808FC549-F367-4782-A68B-F4D045BC79D4}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{6F42C723-A895-45D6-BC99-41EB637BBF90}">
+											<ClipList>
+												<MusicClip Name="part2_countermelody" ID="{2A368033-51FD-4567-90C7-A6DFAD6B62FE}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16243.8548752834"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="part2_countermelody" ID="{FEC69FCF-0B1C-469F-8205-2780BB37EF9B}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="part2_drums" ID="{5445AADF-4FF5-4652-8EF4-2D6BBA780547}" ShortID="51985172">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="part2_drums" ID="{540BE6D7-2DE9-4A40-B57C-895C703FB598}" ShortID="957997892">
+											<Language>SFX</Language>
+											<AudioFile>part2_drums.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_2" ID="{3FEAD099-1BC4-47E7-9E2F-3D5ED587AEA6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{E8EBF0BD-AE36-4743-B2C3-0A95C8F25241}"/>
+												<CustomState Name="" ID="{E7991FE3-0A9F-42B1-8EC8-AA14AACE08E1}" ShortID="304190571">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{82BA73B9-F056-476B-AA39-640387156A3B}"/>
+												<CustomState Name="" ID="{802F9EB4-F95D-4537-BA94-CEC832D83F96}" ShortID="42140038"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{B8937351-8C7D-4EA1-A6EA-3885615CAB4C}"/>
+												<CustomState Name="" ID="{8D78233A-B79F-4A87-980C-35B6C20C6307}" ShortID="316103683">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{26ED52FD-2C5C-4CAC-924B-E6B37C84B588}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{2F1DE9D5-FECC-4BB3-B20F-68C610AC2984}">
+											<ClipList>
+												<MusicClip Name="part2_drums" ID="{9B4D8541-6707-4925-BA21-7C7EB9472510}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="14757.7777777778"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="part2_drums" ID="{540BE6D7-2DE9-4A40-B57C-895C703FB598}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="part2_melody" ID="{8920DCF8-3023-4216-89EA-CD91DEA1F569}" ShortID="1024186373">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="part2_melody" ID="{13C20EEC-00B4-43FE-AE42-33CD1487723B}" ShortID="958896064">
+											<Language>SFX</Language>
+											<AudioFile>part2_melody.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_1" ID="{8DCC7E54-FCBA-4D26-9BF7-3725CEDBF484}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{79598F3F-6E5B-4181-A566-25648A9D3747}"/>
+												<CustomState Name="" ID="{73335173-1CCF-48D1-AEC3-5A3356917F2B}" ShortID="640778360"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{A195B901-2440-468D-8069-8207876AD7B5}"/>
+												<CustomState Name="" ID="{63444231-7D2C-4ED9-9B29-647CCEBFCC8B}" ShortID="1042640908">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{4E5B962E-BBF2-4FE4-9A47-EEA661CB617A}"/>
+												<CustomState Name="" ID="{3F360005-BE64-4185-9085-86F55BAD38E2}" ShortID="266325495">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{9558CC67-AAF9-4A47-8A49-6E642280AB9D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{E43EB57E-7926-4DFA-8769-A673A4EA39E0}">
+											<ClipList>
+												<MusicClip Name="part2_melody" ID="{47A68EBD-888D-479A-8B84-B0A38E396DF9}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="14757.7777777778"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="part2_melody" ID="{13C20EEC-00B4-43FE-AE42-33CD1487723B}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="part2_rhythmGuitarThingy" ID="{23309D3D-DD4F-4069-AE52-F3FC78A07EB1}" ShortID="35656255">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="part2_rhythmGuitarThingy" ID="{231E4BFC-B0BC-469B-BED4-FCBAEE24C1F0}" ShortID="920446060">
+											<Language>SFX</Language>
+											<AudioFile>part2_rhythmGuitarThingy.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_3" ID="{AEDBA2CB-7673-43C3-BD60-7DEE893FF53A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{16E48E9B-7326-429C-8C66-BDBDEEF3102A}"/>
+												<CustomState Name="" ID="{BC6E82CA-40F1-4FD3-8BCF-13F794953AF4}" ShortID="825492674">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{B63CB346-5184-477A-AA12-88619D6E28DA}"/>
+												<CustomState Name="" ID="{DCC57394-AA72-4F10-97EF-CB2DB2AF494E}" ShortID="738922338">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{9262B6EB-4436-4CFB-8A24-B4F8570905A7}"/>
+												<CustomState Name="" ID="{5DBE95F5-0CE0-4E99-A78B-D7006537FF34}" ShortID="331989717"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{FC77EAA2-C5A6-4DAE-BD2E-151B517C5A58}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{31773FD2-5F29-4100-A79F-086ADFB5798F}">
+											<ClipList>
+												<MusicClip Name="part2_rhythmGuitarThingy" ID="{080DD5C0-EB46-4AF1-A158-5EAD24184E6B}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="17729.9319727891"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="part2_rhythmGuitarThingy" ID="{231E4BFC-B0BC-469B-BED4-FCBAEE24C1F0}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
 							</ChildrenList>
 							<CueList>
 								<MusicCue Name="Entry Cue" ID="{30D04225-4E52-4950-BEF8-ADA5BE97D71D}"/>
 								<MusicCue Name="Exit Cue" ID="{28AAE0E7-D13E-4A2E-9AB9-8ED3CA7CD909}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+										<Property Name="TimeMs" Type="Real64" Value="13714.2857142857"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
@@ -514,6 +1635,35 @@
 											<AudioFile>part3_bass.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_5" ID="{89716905-1D7B-49B6-843B-82D0A3FDBE17}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{3E645B09-5FD7-4477-8261-9496D9249436}"/>
+												<CustomState Name="" ID="{5B6BC56D-E222-4104-90DA-1547960F1A13}" ShortID="918043329">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{2A10DA66-D54B-48DA-ACDB-34708541E241}"/>
+												<CustomState Name="" ID="{E87BA756-1E08-4B0B-872D-42C9A82039C4}" ShortID="327683541">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{70D06A5A-34E1-4E28-A48B-B234920A23AC}"/>
+												<CustomState Name="" ID="{79560565-240E-49A5-9C45-A8B8774CAA58}" ShortID="20939910"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{1126BBF1-74AD-445D-9B2F-B61FA1298605}">
 											<PropertyList>
@@ -549,6 +1699,35 @@
 											<AudioFile>part3_chords.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_6" ID="{29341EB5-99BF-478B-AE1D-2EB18ED7BE36}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{2252E2DF-683D-4489-A41C-41212F8CE0C1}"/>
+												<CustomState Name="" ID="{8EF0ECCF-C4E6-4487-BB6C-E867F0CC4350}" ShortID="283955351"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{4B602BA9-B9C6-4AC5-9CDF-DA4A8EF87E86}"/>
+												<CustomState Name="" ID="{7029BD04-23A8-4C5C-B42E-80D711923BF0}" ShortID="713527118">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{C6A00C3C-1A9B-4D40-A5A0-E29CB3296B87}"/>
+												<CustomState Name="" ID="{3BFE10D9-43C0-4455-9DCD-D83D8C2FEC2B}" ShortID="119543232">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{992E2DA5-4375-4F1D-A8EF-51E122A05981}">
 											<PropertyList>
@@ -584,6 +1763,35 @@
 											<AudioFile>part3_countermelody.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_4" ID="{76191639-08DE-47AE-9556-84F27D477E53}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{0A73D687-96C8-487A-997D-48B2D000DC61}"/>
+												<CustomState Name="" ID="{059A957C-2B89-4F2E-AA32-092ECD620E25}" ShortID="457196586">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{76BB99C2-808A-49C5-B51D-1478ACDCA0C8}"/>
+												<CustomState Name="" ID="{5C12C4FD-85F8-4029-A400-6901B2F46B14}" ShortID="641676409"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{589BC312-CBEA-4C2F-BFEE-6FADFAEBFB63}"/>
+												<CustomState Name="" ID="{6975ED90-8007-4CC9-B67B-4E4F0460014B}" ShortID="589053781">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{FE79F0B6-4EF3-4DBF-B698-3B6D11485060}">
 											<PropertyList>
@@ -619,6 +1827,35 @@
 											<AudioFile>part3_drums.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_2" ID="{3FEAD099-1BC4-47E7-9E2F-3D5ED587AEA6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{E8EBF0BD-AE36-4743-B2C3-0A95C8F25241}"/>
+												<CustomState Name="" ID="{E02B6350-CF56-4B0A-BBAB-65426E7352D2}" ShortID="253793202">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{82BA73B9-F056-476B-AA39-640387156A3B}"/>
+												<CustomState Name="" ID="{0EC7086B-6460-4E30-A22D-9E8BEE2FF4C7}" ShortID="939906992"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{B8937351-8C7D-4EA1-A6EA-3885615CAB4C}"/>
+												<CustomState Name="" ID="{6BD8D2AD-B03A-4323-B821-72C499B5C825}" ShortID="473557439">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{E4D3B2B3-5127-4258-B96F-34287A4515A8}">
 											<PropertyList>
@@ -654,6 +1891,35 @@
 											<AudioFile>part3_melody.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_1" ID="{8DCC7E54-FCBA-4D26-9BF7-3725CEDBF484}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{79598F3F-6E5B-4181-A566-25648A9D3747}"/>
+												<CustomState Name="" ID="{6FA55F13-0723-42F0-90DF-C737B0CFA041}" ShortID="19135840"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{A195B901-2440-468D-8069-8207876AD7B5}"/>
+												<CustomState Name="" ID="{8F584F0D-67A7-44DD-A6CB-C726FE58EF6C}" ShortID="985468795">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{4E5B962E-BBF2-4FE4-9A47-EEA661CB617A}"/>
+												<CustomState Name="" ID="{8FE76388-4CDA-4424-B6A2-41F59360A414}" ShortID="509945976">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{6E218AE7-40DF-4B0D-9131-CF472E54FF11}">
 											<PropertyList>
@@ -689,6 +1955,35 @@
 											<AudioFile>part3_rhythmGuitarThingy.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_3" ID="{AEDBA2CB-7673-43C3-BD60-7DEE893FF53A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{16E48E9B-7326-429C-8C66-BDBDEEF3102A}"/>
+												<CustomState Name="" ID="{31476C4B-8D4E-4446-AEAF-C9E743FC6683}" ShortID="45045150">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{B63CB346-5184-477A-AA12-88619D6E28DA}"/>
+												<CustomState Name="" ID="{1F8571A9-2CF6-49DF-B7A2-1210621B8047}" ShortID="613324092">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{9262B6EB-4436-4CFB-8A24-B4F8570905A7}"/>
+												<CustomState Name="" ID="{355BFD3E-954F-4D1E-A793-7033BEAD659B}" ShortID="106944762"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{26665D1F-AB53-4E89-9BF1-1DB13A33D15D}">
 											<PropertyList>
@@ -712,20 +2007,404 @@
 										</MusicTrackSequence>
 									</SequenceList>
 								</MusicTrack>
+								<MusicTrack Name="Fantasy_Bass_Segment_3" ID="{6DEE9AC7-EEE6-41F7-819A-1B5AE69C3865}" ShortID="859291912">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Bass_Segment_3" ID="{6E28640E-C0E9-4CF5-9AE3-30670CD23DD3}" ShortID="571000802">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Bass_Segment_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_5" ID="{89716905-1D7B-49B6-843B-82D0A3FDBE17}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{3E645B09-5FD7-4477-8261-9496D9249436}"/>
+												<CustomState Name="" ID="{A5D94ADE-8143-43AC-B470-FF9D68610013}" ShortID="449517263"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{2A10DA66-D54B-48DA-ACDB-34708541E241}"/>
+												<CustomState Name="" ID="{B10327A6-C8BF-4041-8ADF-A8471D3143DF}" ShortID="949491452">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{70D06A5A-34E1-4E28-A48B-B234920A23AC}"/>
+												<CustomState Name="" ID="{7515FF88-EB63-4B09-9A73-572048800437}" ShortID="396243654">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8FAF3B9E-8FF9-408D-BBCC-7B49156BC711}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{797B2D9C-B55F-43FC-907B-293534A0508A}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Bass_Segment_3" ID="{EC211F32-E011-4D5E-8A4A-1D2ABD756226}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Bass_Segment_3" ID="{6E28640E-C0E9-4CF5-9AE3-30670CD23DD3}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Counter_Segment_3" ID="{0179B8AA-B535-4BF9-978C-C032C1A850D9}" ShortID="844360013">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Counter_Segment_3" ID="{EC46CA07-1470-4084-BD8B-FBBDD963867B}" ShortID="179090350">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Counter_Segment_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_4" ID="{76191639-08DE-47AE-9556-84F27D477E53}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{0A73D687-96C8-487A-997D-48B2D000DC61}"/>
+												<CustomState Name="" ID="{055253C2-705D-4DBE-BDC6-30932E5FB5F7}" ShortID="964180349">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{76BB99C2-808A-49C5-B51D-1478ACDCA0C8}"/>
+												<CustomState Name="" ID="{1C556C90-9F10-4542-8529-6DC90A381181}" ShortID="715901839">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{589BC312-CBEA-4C2F-BFEE-6FADFAEBFB63}"/>
+												<CustomState Name="" ID="{15E28D94-B95B-41FF-A4AC-9FE092506146}" ShortID="432456867"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E36A0DFF-DFCC-458F-9C12-138331FCC941}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{2156315F-13CD-462B-8B19-24308A1E7EC0}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Counter_Segment_3" ID="{A001BA21-79C9-4401-A6C1-5B8FA4648728}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Counter_Segment_3" ID="{EC46CA07-1470-4084-BD8B-FBBDD963867B}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Harmony_Segment_3" ID="{2B22C604-8B07-4AE7-A273-BEAA0F6E1AE2}" ShortID="770329037">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Harmony_Segment_3" ID="{70EEA9BA-3CE2-4AF3-841F-C4B6FDA2E84F}" ShortID="980531226">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Harmony_Segment_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_6" ID="{29341EB5-99BF-478B-AE1D-2EB18ED7BE36}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{2252E2DF-683D-4489-A41C-41212F8CE0C1}"/>
+												<CustomState Name="" ID="{541DE2BB-B1F8-4FDA-A7B7-3DE82B2AE1EF}" ShortID="410699954">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{4B602BA9-B9C6-4AC5-9CDF-DA4A8EF87E86}"/>
+												<CustomState Name="" ID="{927805AC-8F16-442D-8723-F55417D49918}" ShortID="545782914">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{C6A00C3C-1A9B-4D40-A5A0-E29CB3296B87}"/>
+												<CustomState Name="" ID="{73DEBB8A-7F56-4C23-A125-A7374810B159}" ShortID="950550458"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5A77FEF6-BCF0-4641-9965-D260607A15BE}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{B66C0E58-FB70-402E-8EBC-4A2508D2381A}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Harmony_Segment_3" ID="{F844F60B-4ECA-469D-B3F6-99761A8CB2E6}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Harmony_Segment_3" ID="{70EEA9BA-3CE2-4AF3-841F-C4B6FDA2E84F}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Lead_Segment_3" ID="{272C4779-72AF-4524-AA5A-9727104E8160}" ShortID="844545965">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Lead_Segment_3" ID="{9BF4B129-C153-4792-B0F8-CCCCBE58D29D}" ShortID="40656413">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Lead_Segment_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_1" ID="{8DCC7E54-FCBA-4D26-9BF7-3725CEDBF484}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{79598F3F-6E5B-4181-A566-25648A9D3747}"/>
+												<CustomState Name="" ID="{D4360D70-46CD-463E-A192-8FADD27FBBE9}" ShortID="389462683">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{A195B901-2440-468D-8069-8207876AD7B5}"/>
+												<CustomState Name="" ID="{D7376EBC-D7C2-46D9-8B14-46FB45F499DB}" ShortID="421007615"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{4E5B962E-BBF2-4FE4-9A47-EEA661CB617A}"/>
+												<CustomState Name="" ID="{FBAAB18E-AADF-4DA2-BE3C-73F3F093AA5B}" ShortID="1006307139">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{9AA179D0-4D26-4C22-91F9-7199FA1CD6D7}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{66114CC0-84A5-47CE-8B51-5317E62C13A1}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Lead_Segment_3" ID="{81A66635-8C08-418C-9B44-D0B13DEB02D9}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Lead_Segment_3" ID="{9BF4B129-C153-4792-B0F8-CCCCBE58D29D}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Pad_Segment_3" ID="{16583D17-5B5C-4D6C-92E9-30EA41BC78C4}" ShortID="899747063">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Pad_Segment_3" ID="{F673E516-0357-4C69-9A3F-4E1ABFCC9435}" ShortID="754874330">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Pad_Segment_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_3" ID="{AEDBA2CB-7673-43C3-BD60-7DEE893FF53A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{16E48E9B-7326-429C-8C66-BDBDEEF3102A}"/>
+												<CustomState Name="" ID="{C81C3FF0-23E7-4435-97A4-99DA3CC6E48A}" ShortID="988358097">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{B63CB346-5184-477A-AA12-88619D6E28DA}"/>
+												<CustomState Name="" ID="{30EDD875-D79F-456B-94D1-CF7D56767486}" ShortID="953945435"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{9262B6EB-4436-4CFB-8A24-B4F8570905A7}"/>
+												<CustomState Name="" ID="{A122CC0D-AEC0-48B7-A55A-DEDE1CE4AB46}" ShortID="1062539443">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{144221E0-88DA-4D1C-87C5-935ADED23BE5}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{47D3469B-BF43-4846-966E-45D68A7F17BA}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Pad_Segment_3" ID="{6A8DE439-E1BD-4CDB-B5B6-1359259D22D7}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Pad_Segment_3" ID="{F673E516-0357-4C69-9A3F-4E1ABFCC9435}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Percussion_Segment_3" ID="{C00B97DA-0617-4AE1-A757-B2E3C45CC701}" ShortID="1045323423">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Percussion_Segment_3" ID="{1463E2EE-784C-42D7-8497-5D25807AF577}" ShortID="518212956">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Percussion_Segment_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_2" ID="{3FEAD099-1BC4-47E7-9E2F-3D5ED587AEA6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{E8EBF0BD-AE36-4743-B2C3-0A95C8F25241}"/>
+												<CustomState Name="" ID="{5B9C73AF-8D31-4677-866E-2F8E3325BF62}" ShortID="600967493"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{82BA73B9-F056-476B-AA39-640387156A3B}"/>
+												<CustomState Name="" ID="{67BFBBFD-E506-4146-96F1-886BCAA7DE17}" ShortID="69787753">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{B8937351-8C7D-4EA1-A6EA-3885615CAB4C}"/>
+												<CustomState Name="" ID="{81F1678B-D031-415C-8486-19C7AA3EFDEF}" ShortID="1004420504">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1B320C0A-93C4-4BC4-A6FE-E9AE42C5C93F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{71F75A5D-18E4-4C07-BD0E-BC4FE4D65374}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Percussion_Segment_3" ID="{E3BC908A-6030-46F8-A5B8-0F273AEFED72}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Percussion_Segment_3" ID="{1463E2EE-784C-42D7-8497-5D25807AF577}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
 							</ChildrenList>
 							<CueList>
 								<MusicCue Name="Entry Cue" ID="{208D785E-7C17-4E2D-A3A1-E9DEF949C97A}"/>
 								<MusicCue Name="Exit Cue" ID="{9C21D7ED-382A-4A25-81FC-694821690100}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+										<Property Name="TimeMs" Type="Real64" Value="13714.2857142857"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
 						</MusicSegment>
 						<MusicSegment Name="Segment_4" ID="{B84F43EA-44D5-47B8-BADE-26708A879DBA}" ShortID="721118838">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="16285.6916099773"/>
+								<Property Name="EndPosition" Type="Real64" Value="17729.9319727891"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -748,6 +2427,35 @@
 											<AudioFile>Fantasy_Bass_Segment_4.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_5" ID="{89716905-1D7B-49B6-843B-82D0A3FDBE17}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{3E645B09-5FD7-4477-8261-9496D9249436}"/>
+												<CustomState Name="" ID="{5DB059CC-394A-440E-829E-0496BBDD1641}" ShortID="44648690"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{2A10DA66-D54B-48DA-ACDB-34708541E241}"/>
+												<CustomState Name="" ID="{4EC6A95C-40E0-487A-8FDC-50B064ECC24D}" ShortID="353733227">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{70D06A5A-34E1-4E28-A48B-B234920A23AC}"/>
+												<CustomState Name="" ID="{A6ABEF43-5B74-4462-9AC5-49473D7E1FDE}" ShortID="973664748">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{784E9759-1DA2-41A5-8F8D-EE445E0EFAF4}">
 											<PropertyList>
@@ -783,6 +2491,35 @@
 											<AudioFile>Fantasy_Counter_Segment_4.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_4" ID="{76191639-08DE-47AE-9556-84F27D477E53}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{0A73D687-96C8-487A-997D-48B2D000DC61}"/>
+												<CustomState Name="" ID="{4ACAD9FA-9672-407E-8F69-36D7130E532E}" ShortID="1027508894">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{76BB99C2-808A-49C5-B51D-1478ACDCA0C8}"/>
+												<CustomState Name="" ID="{0157AFE1-0720-435E-A19C-8B2B3ACD58B8}" ShortID="163161627">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{589BC312-CBEA-4C2F-BFEE-6FADFAEBFB63}"/>
+												<CustomState Name="" ID="{3AA2C85C-88A3-4F15-9923-F4A80B432C44}" ShortID="970542980"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{87292168-10C5-4CC7-A7EF-735AF9908DED}">
 											<PropertyList>
@@ -818,6 +2555,35 @@
 											<AudioFile>Fantasy_Harmony_Segment_4.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_6" ID="{29341EB5-99BF-478B-AE1D-2EB18ED7BE36}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{2252E2DF-683D-4489-A41C-41212F8CE0C1}"/>
+												<CustomState Name="" ID="{47070616-63FF-429B-858C-0542F526F56A}" ShortID="234665289">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{4B602BA9-B9C6-4AC5-9CDF-DA4A8EF87E86}"/>
+												<CustomState Name="" ID="{A712F087-4792-4FB7-BE4D-4D9A2B58A7CF}" ShortID="649843185">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{C6A00C3C-1A9B-4D40-A5A0-E29CB3296B87}"/>
+												<CustomState Name="" ID="{C9BFEFED-79B6-4CF9-9597-4D118C2BBCCB}" ShortID="304977740"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{088D95D3-1109-4A85-A334-9107E6AFCE94}">
 											<PropertyList>
@@ -853,6 +2619,35 @@
 											<AudioFile>Fantasy_Leadl_Segment_4.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_1" ID="{8DCC7E54-FCBA-4D26-9BF7-3725CEDBF484}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{79598F3F-6E5B-4181-A566-25648A9D3747}"/>
+												<CustomState Name="" ID="{349329B0-21E2-427A-ADB4-B3FC812A12F6}" ShortID="37516208">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{A195B901-2440-468D-8069-8207876AD7B5}"/>
+												<CustomState Name="" ID="{00459874-F44F-4CAC-AD7D-120C0C0EDE7E}" ShortID="634268208"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{4E5B962E-BBF2-4FE4-9A47-EEA661CB617A}"/>
+												<CustomState Name="" ID="{FBD2A150-21E6-4C12-BA02-ACEC8B59E6A7}" ShortID="1060436687">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{24A7B288-C79B-4340-88AF-F0B66C236536}">
 											<PropertyList>
@@ -888,6 +2683,35 @@
 											<AudioFile>Fantasy_Pad_Segment_4.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_3" ID="{AEDBA2CB-7673-43C3-BD60-7DEE893FF53A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{16E48E9B-7326-429C-8C66-BDBDEEF3102A}"/>
+												<CustomState Name="" ID="{9D1BDD96-95A2-491B-AD9F-69B3A3E2DE6F}" ShortID="1000533640">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{B63CB346-5184-477A-AA12-88619D6E28DA}"/>
+												<CustomState Name="" ID="{0493B8C8-8415-419C-A7EE-8F5E685E5438}" ShortID="827381411"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{9262B6EB-4436-4CFB-8A24-B4F8570905A7}"/>
+												<CustomState Name="" ID="{A08B94CF-31D6-4C7F-9BD2-B7B0063FC974}" ShortID="869862600">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{A7977BF0-9201-4917-BAA2-76EFF294926D}">
 											<PropertyList>
@@ -923,6 +2747,35 @@
 											<AudioFile>Fantasy_Percussion_Segment_4.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_2" ID="{3FEAD099-1BC4-47E7-9E2F-3D5ED587AEA6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{E8EBF0BD-AE36-4743-B2C3-0A95C8F25241}"/>
+												<CustomState Name="" ID="{AF411B78-53F7-42D7-891F-FE5DF7D1FC07}" ShortID="281706643"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{82BA73B9-F056-476B-AA39-640387156A3B}"/>
+												<CustomState Name="" ID="{150CC363-4D0F-41D1-B34E-69B02917B838}" ShortID="304666716">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{B8937351-8C7D-4EA1-A6EA-3885615CAB4C}"/>
+												<CustomState Name="" ID="{7548E29D-FF4F-4B39-8F35-1B00643D820B}" ShortID="684466723">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{97646EB8-7C2E-4063-993C-BE3477A30A63}">
 											<PropertyList>
@@ -946,13 +2799,397 @@
 										</MusicTrackSequence>
 									</SequenceList>
 								</MusicTrack>
+								<MusicTrack Name="part4_bass" ID="{D5ED7F82-7EA5-427A-8B96-1860DC70FCF1}" ShortID="954489430">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="part4_bass" ID="{F7B605C6-05BE-4BFD-ABF9-86D5B83D972B}" ShortID="995515479">
+											<Language>SFX</Language>
+											<AudioFile>part4_bass.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_5" ID="{89716905-1D7B-49B6-843B-82D0A3FDBE17}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{3E645B09-5FD7-4477-8261-9496D9249436}"/>
+												<CustomState Name="" ID="{EE5AA441-4453-447B-8E5A-C1957B330BA4}" ShortID="304593759">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{2A10DA66-D54B-48DA-ACDB-34708541E241}"/>
+												<CustomState Name="" ID="{CD417843-7458-40A8-9A56-6731CEF6469A}" ShortID="78775114">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{70D06A5A-34E1-4E28-A48B-B234920A23AC}"/>
+												<CustomState Name="" ID="{5E0C5856-645B-45FB-819B-A557CE133283}" ShortID="721593136"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6EDEA3E3-5B09-459B-B3DD-D5D4EC71BA70}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{782B74D3-FE84-48B6-ACE6-9912CDCEEF76}">
+											<ClipList>
+												<MusicClip Name="part4_bass" ID="{A83B143D-B19E-4439-92EA-64056C66B24A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="14757.7777777778"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="part4_bass" ID="{F7B605C6-05BE-4BFD-ABF9-86D5B83D972B}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="part4_chords" ID="{1EA35D79-AFAC-48E3-AEAE-A51CAF40C459}" ShortID="131409753">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="part4_chords" ID="{549E2706-5A45-4030-B93D-F7684E1A4262}" ShortID="527900941">
+											<Language>SFX</Language>
+											<AudioFile>part4_chords.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_6" ID="{29341EB5-99BF-478B-AE1D-2EB18ED7BE36}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{2252E2DF-683D-4489-A41C-41212F8CE0C1}"/>
+												<CustomState Name="" ID="{EF8F1B67-FE0A-43C2-8093-7516606D86C0}" ShortID="85729576"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{4B602BA9-B9C6-4AC5-9CDF-DA4A8EF87E86}"/>
+												<CustomState Name="" ID="{05DF7A16-5E1B-439C-8B71-FDC16C53EE3A}" ShortID="819373708">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{C6A00C3C-1A9B-4D40-A5A0-E29CB3296B87}"/>
+												<CustomState Name="" ID="{1901DA60-FD3F-4CD9-BBD3-B5FC32675164}" ShortID="867011702">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2F69BBA6-359C-4006-8D8E-BBC318E72D65}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{60DC15E6-8270-46EF-AC75-724CAD3134B5}">
+											<ClipList>
+												<MusicClip Name="part4_chords" ID="{3F6CE2AA-8583-4650-9DB2-6096B54377D7}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16243.8548752834"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="part4_chords" ID="{549E2706-5A45-4030-B93D-F7684E1A4262}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="part4_countermelody" ID="{F93C7283-C2F4-487F-B96B-3674D3F58AF6}" ShortID="335218036">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="part4_countermelody" ID="{2D50EE3A-86A2-4817-9239-133BB4077483}" ShortID="531715090">
+											<Language>SFX</Language>
+											<AudioFile>part4_countermelody.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_4" ID="{76191639-08DE-47AE-9556-84F27D477E53}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{0A73D687-96C8-487A-997D-48B2D000DC61}"/>
+												<CustomState Name="" ID="{8FAAAECE-E189-4DAA-BAFE-78D62772071F}" ShortID="737037083">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{76BB99C2-808A-49C5-B51D-1478ACDCA0C8}"/>
+												<CustomState Name="" ID="{A54CDCE5-D559-4FE9-86DD-BB65BCF62068}" ShortID="905653516"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{589BC312-CBEA-4C2F-BFEE-6FADFAEBFB63}"/>
+												<CustomState Name="" ID="{93FB9003-97A8-432F-A12E-F5E7F9973BB9}" ShortID="811799170">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{3607A976-E087-436B-AAEA-E1DAE6BA0D4F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{30BBEC62-F820-40D6-90E7-9BE8635E9496}">
+											<ClipList>
+												<MusicClip Name="part4_countermelody" ID="{3C09D360-635E-4F72-A522-668FC3018F19}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16243.8548752834"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="part4_countermelody" ID="{2D50EE3A-86A2-4817-9239-133BB4077483}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="part4_drums" ID="{78476384-AF06-441E-9143-0EDAD3503541}" ShortID="661799455">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="part4_drums" ID="{3EEC4131-6AEE-40F4-88F3-69F141AF802A}" ShortID="794918298">
+											<Language>SFX</Language>
+											<AudioFile>part4_drums.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_2" ID="{3FEAD099-1BC4-47E7-9E2F-3D5ED587AEA6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{E8EBF0BD-AE36-4743-B2C3-0A95C8F25241}"/>
+												<CustomState Name="" ID="{163FC39E-6F3C-40F4-91C6-D6FD1A377890}" ShortID="54348017">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{82BA73B9-F056-476B-AA39-640387156A3B}"/>
+												<CustomState Name="" ID="{4AC20E7E-7420-4ED2-9135-969F0FEED48F}" ShortID="886032505"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{B8937351-8C7D-4EA1-A6EA-3885615CAB4C}"/>
+												<CustomState Name="" ID="{0C6DCE65-5890-40A4-9B91-AF85DFFA836A}" ShortID="367374390">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{B9C24AB2-70BC-42F5-9830-0DE16B5C171F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{B9C9C14C-611B-41E4-9869-43DBAFDF22D1}">
+											<ClipList>
+												<MusicClip Name="part4_drums" ID="{DBE2E588-D4FD-407E-9A8E-6EF12332ED44}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="14757.7777777778"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="part4_drums" ID="{3EEC4131-6AEE-40F4-88F3-69F141AF802A}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="part4_melody" ID="{7291821B-4C47-4B87-B27A-F7046665BCA9}" ShortID="622061055">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="part4_melody" ID="{45D77047-7784-4A54-8C10-934858D6DAE6}" ShortID="126911983">
+											<Language>SFX</Language>
+											<AudioFile>part4_melody.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_1" ID="{8DCC7E54-FCBA-4D26-9BF7-3725CEDBF484}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{79598F3F-6E5B-4181-A566-25648A9D3747}"/>
+												<CustomState Name="" ID="{31B42688-BC61-46C8-BD44-1390FE057696}" ShortID="138565926"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{A195B901-2440-468D-8069-8207876AD7B5}"/>
+												<CustomState Name="" ID="{8D2F11A1-ACB7-4843-9303-EFE46B0564EC}" ShortID="395676876">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{4E5B962E-BBF2-4FE4-9A47-EEA661CB617A}"/>
+												<CustomState Name="" ID="{32996C52-2271-4E66-AEEF-C6F27FD4FC68}" ShortID="98088430">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8E0E01D8-E158-4096-B1B4-C23DA0563896}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{1A459A6A-400B-4C8A-952F-8553298E53D9}">
+											<ClipList>
+												<MusicClip Name="part4_melody" ID="{0E979C89-5E51-437B-99C0-BEEFD4A58A34}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="17729.9319727891"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="part4_melody" ID="{45D77047-7784-4A54-8C10-934858D6DAE6}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="part4_rhythmGuitarThingy" ID="{373937DE-5D8A-49B5-A052-43C7FA408586}" ShortID="1060467558">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="part4_rhythmGuitarThingy" ID="{BA394E59-506E-4AC4-9F8C-33F1D4AA81D4}" ShortID="641183696">
+											<Language>SFX</Language>
+											<AudioFile>part4_rhythmGuitarThingy.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="4">
+												<StateGroupRef Name="Node_3" ID="{AEDBA2CB-7673-43C3-BD60-7DEE893FF53A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{16E48E9B-7326-429C-8C66-BDBDEEF3102A}"/>
+												<CustomState Name="" ID="{8016A4B6-E3B4-4940-A349-14022071B9B3}" ShortID="905623527">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Fairy" ID="{B63CB346-5184-477A-AA12-88619D6E28DA}"/>
+												<CustomState Name="" ID="{113B4881-8BAB-48D0-BE37-7C7032BB1BDA}" ShortID="669975355">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Captured_Robot" ID="{9262B6EB-4436-4CFB-8A24-B4F8570905A7}"/>
+												<CustomState Name="" ID="{6287CCFE-69F5-46B1-B621-609BB04E7A10}" ShortID="460294896"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{74B6DA48-C5A2-43A4-AA7B-F0D6EF35A37D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{E740AE17-54A1-44A6-9BD7-73CBE2E9A915}">
+											<ClipList>
+												<MusicClip Name="part4_rhythmGuitarThingy" ID="{7575DA54-F729-4617-AD4E-31FBEBAA90DC}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="17729.9319727891"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="part4_rhythmGuitarThingy" ID="{BA394E59-506E-4AC4-9F8C-33F1D4AA81D4}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
 							</ChildrenList>
 							<CueList>
 								<MusicCue Name="Entry Cue" ID="{E32C9929-2798-49E0-93C0-2C1279857B3E}"/>
 								<MusicCue Name="Exit Cue" ID="{2AC4ECBA-A69B-4AFE-970A-168AE4B3688D}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+										<Property Name="TimeMs" Type="Real64" Value="13714.2857142857"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
@@ -972,9 +3209,63 @@
 						</MusicTransition>
 					</TransitionList>
 					<Playlist>
-						<MusicPlaylistItem Name="" ID="{1A958265-DDCB-42CD-B47C-01AEB46F0C56}" ShortID="879938227"/>
+						<MusicPlaylistItem Name="" ID="{1A958265-DDCB-42CD-B47C-01AEB46F0C56}" ShortID="879938227">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+								<Property Name="PlayMode" Type="int16" Value="2"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{0FC7BAE7-80B9-4A35-88C3-BC4407465BFC}" ShortID="376364857">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Segment_1" ID="{6381218E-BEE5-4193-B5B6-1112550CC0BF}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{B7457546-D92E-461E-8B6F-DA4C726FCA83}" ShortID="482371680">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Segment_2" ID="{FB0169B7-5347-4E50-8D7E-A12916DC5A55}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{5AEE6948-3D2E-4D36-A67A-EDEB7E716C21}" ShortID="118467490">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Segment_3" ID="{97E9FB59-BF13-417C-A558-C37549AD106B}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{CFDD08A1-86FD-49EB-B393-63E0862AE584}" ShortID="277438457">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Segment_4" ID="{B84F43EA-44D5-47B8-BADE-26708A879DBA}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
+				<MusicSwitchContainer Name="MainMusic" ID="{2F7537EE-75AC-466B-9D17-D1BACDCC2547}" ShortID="820416419">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+						</Reference>
+					</ReferenceList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{914C6262-EECC-4E28-B42C-CFEB511C81F1}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{6878402C-2AAA-4EFC-9EF4-C6FB35D273DB}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

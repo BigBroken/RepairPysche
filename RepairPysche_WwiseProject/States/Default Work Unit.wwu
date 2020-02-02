@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B7654653-7205-45E1-AB57-6815B1F43F60}" SchemaVersion="94">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{B7654653-7205-45E1-AB57-6815B1F43F60}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B7654653-7205-45E1-AB57-6815B1F43F60}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Node_1" ID="{8DCC7E54-FCBA-4D26-9BF7-3725CEDBF484}">
+					<ChildrenList>
+						<State Name="None" ID="{9A1B5C9F-D62C-459C-B2F7-D866E202AD2B}"/>
+						<State Name="Captured_Fairy" ID="{A195B901-2440-468D-8069-8207876AD7B5}"/>
+						<State Name="Captured_Robot" ID="{79598F3F-6E5B-4181-A566-25648A9D3747}"/>
+						<State Name="Destroyed" ID="{4E5B962E-BBF2-4FE4-9A47-EEA661CB617A}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Node_2" ID="{3FEAD099-1BC4-47E7-9E2F-3D5ED587AEA6}">
+					<ChildrenList>
+						<State Name="None" ID="{FB5978F2-3714-43E9-B885-D19ACFDB6E47}"/>
+						<State Name="Captured_Fairy" ID="{E8EBF0BD-AE36-4743-B2C3-0A95C8F25241}"/>
+						<State Name="Captured_Robot" ID="{82BA73B9-F056-476B-AA39-640387156A3B}"/>
+						<State Name="Destroyed" ID="{B8937351-8C7D-4EA1-A6EA-3885615CAB4C}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Node_3" ID="{AEDBA2CB-7673-43C3-BD60-7DEE893FF53A}">
+					<ChildrenList>
+						<State Name="None" ID="{7CD67903-F4DE-4043-B516-4D00252C3B86}"/>
+						<State Name="Captured_Fairy" ID="{B63CB346-5184-477A-AA12-88619D6E28DA}"/>
+						<State Name="Captured_Robot" ID="{9262B6EB-4436-4CFB-8A24-B4F8570905A7}"/>
+						<State Name="Destroyed" ID="{16E48E9B-7326-429C-8C66-BDBDEEF3102A}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Node_4" ID="{76191639-08DE-47AE-9556-84F27D477E53}">
+					<ChildrenList>
+						<State Name="None" ID="{DCFB912E-E426-444F-A4DC-78CD978FF7BF}"/>
+						<State Name="Captured_Fairy" ID="{589BC312-CBEA-4C2F-BFEE-6FADFAEBFB63}"/>
+						<State Name="Captured_Robot" ID="{76BB99C2-808A-49C5-B51D-1478ACDCA0C8}"/>
+						<State Name="Destroyed" ID="{0A73D687-96C8-487A-997D-48B2D000DC61}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Node_5" ID="{89716905-1D7B-49B6-843B-82D0A3FDBE17}">
+					<ChildrenList>
+						<State Name="None" ID="{762DE4D6-AB90-4F3E-9D91-806263810558}"/>
+						<State Name="Captured_Fairy" ID="{3E645B09-5FD7-4477-8261-9496D9249436}"/>
+						<State Name="Captured_Robot" ID="{70D06A5A-34E1-4E28-A48B-B234920A23AC}"/>
+						<State Name="Destroyed" ID="{2A10DA66-D54B-48DA-ACDB-34708541E241}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Node_6" ID="{29341EB5-99BF-478B-AE1D-2EB18ED7BE36}">
+					<ChildrenList>
+						<State Name="None" ID="{303B2599-2654-4C73-9DB8-41C09F00C84A}"/>
+						<State Name="Captured_Fairy" ID="{C6A00C3C-1A9B-4D40-A5A0-E29CB3296B87}"/>
+						<State Name="Captured_Robot" ID="{2252E2DF-683D-4489-A41C-41212F8CE0C1}"/>
+						<State Name="Destroyed" ID="{4B602BA9-B9C6-4AC5-9CDF-DA4A8EF87E86}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
