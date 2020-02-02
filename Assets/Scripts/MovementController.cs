@@ -10,6 +10,7 @@ public class MovementController : MonoBehaviour
     float vertical;
     public enum SelectedPlayer { Player1, Player2 };
     public SelectedPlayer Player;
+    public GameObject currentQuad = null;
 
     public float runSpeed = 20.0f;
 
@@ -43,6 +44,11 @@ public class MovementController : MonoBehaviour
         } else {
             stopMovement();
         }
+        
+        if (currentQuad != null) {
+            currentQuad.transform.position = transform.position;
+        }
+        
     }
     
     protected virtual bool ShouldMove() {
