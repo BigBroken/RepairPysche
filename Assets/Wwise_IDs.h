@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_BLIP = 1793296491U;
+        static const AkUniqueID PLAY_MAIN_MUSIC = 414863633U;
     } // namespace EVENTS
 
     namespace STATES
