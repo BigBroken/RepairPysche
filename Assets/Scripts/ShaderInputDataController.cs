@@ -3,20 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [ExecuteInEditMode]
-public class FlipShaderController : MonoBehaviour
+public class ShaderInputDataController : MonoBehaviour
 {
-    public Camera targetCamera = null;
-    
     // Start is called before the first frame update
     void Awake()
     {
     }
 
     // Update is called once per frame
-    void Update()
+    void OnWillRenderObject()
     {
-        Renderer renderer = GetComponent<Renderer>();
+        Camera targetCamera = Camera.current ? Camera.current : Camera.main;
         Vector3 screenPos = targetCamera.WorldToScreenPoint(transform.position);
+        Renderer renderer = GetComponent<Renderer>();
         renderer.material.SetVector("_ObjectPosition", screenPos);
     }
 }
