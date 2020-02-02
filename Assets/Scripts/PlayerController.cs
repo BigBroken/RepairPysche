@@ -127,9 +127,9 @@ public class PlayerController : MovementController
     {
         int captured = captureNodeCount();
         
-        if (captured == 4 && false) {
+        if (captured == 4) {
             return flipQuad;
-        } else if (captured == 5 || true) {
+        } else if (captured == 5) {
             return garbleQuad;
         } else {
             return null;
