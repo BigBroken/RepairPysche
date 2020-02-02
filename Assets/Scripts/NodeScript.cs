@@ -101,6 +101,18 @@ public class NodeScript : MonoBehaviour
             default: break;
         }
     }
+    
+    public NodeState currentState {
+        get {
+            if (nodeSpriteRenderer.sprite == robotSprite) {
+                return NodeState.RobotControlled;
+            } else if (nodeSpriteRenderer.sprite == fairySprite) {
+                return NodeState.FairyControlled;
+            } else {
+                return NodeState.Destroyed;
+            }
+        }
+    }
 
     public void RepairedFairy()
     {

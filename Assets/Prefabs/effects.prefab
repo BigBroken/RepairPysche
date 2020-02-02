@@ -261,6 +261,7 @@ GameObject:
   - component: {fileID: 7742868430742090542}
   - component: {fileID: 3295580852687589326}
   - component: {fileID: 8049480713660031060}
+  - component: {fileID: 5593933674241676661}
   m_Layer: 0
   m_Name: fairyGarble
   m_TagString: Untagged
@@ -353,6 +354,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5dda07670d4b7473d958dc48e72b8926, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5593933674241676661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6374084662628566229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82cb2f14b35994e9d89b3e8e28fd331a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7739747518176154176

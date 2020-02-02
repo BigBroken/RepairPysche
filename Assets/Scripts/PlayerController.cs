@@ -11,15 +11,30 @@ public class PlayerController : MovementController
     public List<NodeScript> CapturedNodes;
     public NodeScript node;
     public bool AmRobot;
+    public GameObject garbleQuad;
+    public GameObject flipQuad;
+    public GameObject garbleMazeQuad;
+    public GameObject flipMazeQuad;
 
     //UseRepair defines
     public float repairTime = 5;
     public float timer = 0;
     public bool isRepairing = false;
     public GameObject maze;
+    
+    List<NodeScript> allNodes = new List<NodeScript>();
+    
+    void Awake()
+    {
+        allNodes = new List<NodeScript>(Object.FindObjectsOfType<NodeScript>());
+        garbleMazeQuad.SetActive(false);
+        flipMazeQuad.SetActive(false);
+    }
 
     void Update()
     {
+        SetupQuads();
+        
         if (Player == SelectedPlayer.Player1)
         {
             if (!isRepairing)
@@ -93,10 +108,68 @@ public class PlayerController : MovementController
 
     }
 
+    int captureNodeCount()
+    {
+        int result = 0;
+        
+        foreach(NodeScript n in allNodes) {
+            if (n.currentState == NodeScript.NodeState.RobotControlled && AmRobot) {
+                result += 1;
+            } else if (n.currentState == NodeScript.NodeState.FairyControlled && !AmRobot) {
+                result += 1;
+            }
+        }
+        
+        return result;
+    }
+
+    GameObject CurrentQuad()
+    {
+        int captured = captureNodeCount();
+        
+        if (captured == 3 || captured == 4) {
+            return flipQuad;
+        } else if (captured == 5) {
+            return garbleQuad;
+        } else {
+            return null;
+        }
+    }
+
+    GameObject CurrentMazeQuad()
+    {
+        int captured = captureNodeCount();
+        
+        if (captured == 3 || captured == 4) {
+            return flipMazeQuad;
+        } else if (captured == 5) {
+            return garbleMazeQuad;
+        } else {
+            return null;
+        }
+    }
+    
+    void SetupQuads()
+    {
+        currentQuad = CurrentQuad();
+        
+        if (currentQuad) {
+            currentQuad.SetActive(true);
+        }
+        
+        if (garbleQuad != currentQuad) {
+            garbleQuad.SetActive(false);
+        }
+        
+        if (flipQuad != currentQuad) {
+            flipQuad.SetActive(false);
+        }
+    }
+
     public void startRepair()
     {
         isRepairing = true;
-        maze.GetComponent<MazeScript>().GenerateMaze();
+        maze.GetComponent<MazeScript>().GenerateMaze(CurrentMazeQuad());
     }
 
     public void endRepair()
