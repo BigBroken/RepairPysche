@@ -16,6 +16,7 @@ public class NodeScript : MonoBehaviour
 
     public Sprite leftControlled;
     public Sprite rightControlled;
+    public Sprite destroyed;
 
     public Sprite regionLeftControlled;
     public Sprite regionRightControlled;
