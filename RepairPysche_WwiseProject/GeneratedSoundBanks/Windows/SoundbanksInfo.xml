@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\User\Documents\GitHub\RepairPysche\RepairPysche_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\User\Documents\GitHub\RepairPysche\RepairPysche_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\User\Documents\GitHub\RepairPysche\RepairPysche_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\User\Documents\GitHub\RepairPysche\RepairPysche_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2228651116" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
+			<ShortName>Main_Soundbank</ShortName>
+			<Path>Main_Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1793296491" Name="Play_Blip" ObjectPath="\Events\Default Work Unit\Play_Blip" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="414863633" Name="Play_Main_music" ObjectPath="\Events\Default Work Unit\Play_Main_music" DurationType="Infinite"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="24920199" Language="SFX">
+					<ShortName>part1_bass.wav</ShortName>
+					<Path>SFX\part1_bass_D79FB2B7.wem</Path>
+				</File>
+				<File Id="40656413" Language="SFX">
+					<ShortName>Fantasy_Lead_Segment_3.wav</ShortName>
+					<Path>SFX\Fantasy_Lead_Segment_3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="45051893" Language="SFX">
+					<ShortName>Fantasy_Counter_Segment_1.wav</ShortName>
+					<Path>SFX\Fantasy_Counter_Segment_1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="95188337" Language="SFX">
+					<ShortName>Fantasy_Harmony_Segment_2.wav</ShortName>
+					<Path>SFX\Fantasy_Harmony_Segment_2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="126911983" Language="SFX">
+					<ShortName>part4_melody.wav</ShortName>
+					<Path>SFX\part4_melody_D79FB2B7.wem</Path>
+				</File>
+				<File Id="179090350" Language="SFX">
+					<ShortName>Fantasy_Counter_Segment_3.wav</ShortName>
+					<Path>SFX\Fantasy_Counter_Segment_3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="193637058" Language="SFX">
+					<ShortName>part2_bass.wav</ShortName>
+					<Path>SFX\part2_bass_D79FB2B7.wem</Path>
+				</File>
+				<File Id="205628499" Language="SFX">
+					<ShortName>Fantasy_Harmony_Segment_4.wav</ShortName>
+					<Path>SFX\Fantasy_Harmony_Segment_4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="207077708" Language="SFX">
+					<ShortName>part3_drums.wav</ShortName>
+					<Path>SFX\part3_drums_D79FB2B7.wem</Path>
+				</File>
+				<File Id="258323290" Language="SFX">
+					<ShortName>Fantasy_Pad_Segment_2.wav</ShortName>
+					<Path>SFX\Fantasy_Pad_Segment_2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="274310810" Language="SFX">
+					<ShortName>part3_rhythmGuitarThingy.wav</ShortName>
+					<Path>SFX\part3_rhythmGuitarThingy_D79FB2B7.wem</Path>
+				</File>
+				<File Id="277010278" Language="SFX">
+					<ShortName>Fantasy_Harmony_Segment_1.wav</ShortName>
+					<Path>SFX\Fantasy_Harmony_Segment_1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="301837782" Language="SFX">
+					<ShortName>Fantasy_Bass_Segment_2.wav</ShortName>
+					<Path>SFX\Fantasy_Bass_Segment_2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="321739002" Language="SFX">
+					<ShortName>Fantasy_Lead_Segment_2.wav</ShortName>
+					<Path>SFX\Fantasy_Lead_Segment_2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="418489925" Language="SFX">
+					<ShortName>part3_melody.wav</ShortName>
+					<Path>SFX\part3_melody_D79FB2B7.wem</Path>
+				</File>
+				<File Id="431440216" Language="SFX">
+					<ShortName>part1_chords.wav</ShortName>
+					<Path>SFX\part1_chords_D79FB2B7.wem</Path>
+				</File>
+				<File Id="433946332" Language="SFX">
+					<ShortName>Fantasy_Leadl_Segment_4.wav</ShortName>
+					<Path>SFX\Fantasy_Leadl_Segment_4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="488632430" Language="SFX">
+					<ShortName>part3_chords.wav</ShortName>
+					<Path>SFX\part3_chords_D79FB2B7.wem</Path>
+				</File>
+				<File Id="502300372" Language="SFX">
+					<ShortName>Fantasy_Counter_Segment_2.wav</ShortName>
+					<Path>SFX\Fantasy_Counter_Segment_2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="512298372" Language="SFX">
+					<ShortName>part3_bass.wav</ShortName>
+					<Path>SFX\part3_bass_D79FB2B7.wem</Path>
+				</File>
+				<File Id="518212956" Language="SFX">
+					<ShortName>Fantasy_Percussion_Segment_3.wav</ShortName>
+					<Path>SFX\Fantasy_Percussion_Segment_3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="527900941" Language="SFX">
+					<ShortName>part4_chords.wav</ShortName>
+					<Path>SFX\part4_chords_D79FB2B7.wem</Path>
+				</File>
+				<File Id="531715090" Language="SFX">
+					<ShortName>part4_countermelody.wav</ShortName>
+					<Path>SFX\part4_countermelody_D79FB2B7.wem</Path>
+				</File>
+				<File Id="571000802" Language="SFX">
+					<ShortName>Fantasy_Bass_Segment_3.wav</ShortName>
+					<Path>SFX\Fantasy_Bass_Segment_3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="634487373" Language="SFX">
+					<ShortName>part1_rhythmGuitarThingy.wav</ShortName>
+					<Path>SFX\part1_rhythmGuitarThingy_D79FB2B7.wem</Path>
+				</File>
+				<File Id="641183696" Language="SFX">
+					<ShortName>part4_rhythmGuitarThingy.wav</ShortName>
+					<Path>SFX\part4_rhythmGuitarThingy_D79FB2B7.wem</Path>
+				</File>
+				<File Id="643243708" Language="SFX">
+					<ShortName>part2_chords.wav</ShortName>
+					<Path>SFX\part2_chords_D79FB2B7.wem</Path>
+				</File>
+				<File Id="692166491" Language="SFX">
+					<ShortName>Fantasy_Counter_Segment_4.wav</ShortName>
+					<Path>SFX\Fantasy_Counter_Segment_4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="716807903" Language="SFX">
+					<ShortName>part1_melody.wav</ShortName>
+					<Path>SFX\part1_melody_D79FB2B7.wem</Path>
+				</File>
+				<File Id="735841921" Language="SFX">
+					<ShortName>part3_countermelody.wav</ShortName>
+					<Path>SFX\part3_countermelody_D79FB2B7.wem</Path>
+				</File>
+				<File Id="737811081" Language="SFX">
+					<ShortName>Fantasy_Bass_Segment_4.wav</ShortName>
+					<Path>SFX\Fantasy_Bass_Segment_4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="754874330" Language="SFX">
+					<ShortName>Fantasy_Pad_Segment_3.wav</ShortName>
+					<Path>SFX\Fantasy_Pad_Segment_3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="794918298" Language="SFX">
+					<ShortName>part4_drums.wav</ShortName>
+					<Path>SFX\part4_drums_D79FB2B7.wem</Path>
+				</File>
+				<File Id="817585001" Language="SFX">
+					<ShortName>Fantasy_Lead_Segment_1.wav</ShortName>
+					<Path>SFX\Fantasy_Lead_Segment_1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="870057438" Language="SFX">
+					<ShortName>part2_countermelody.wav</ShortName>
+					<Path>SFX\part2_countermelody_D79FB2B7.wem</Path>
+				</File>
+				<File Id="880087741" Language="SFX">
+					<ShortName>Fantasy_Percussion_Segment_4.wav</ShortName>
+					<Path>SFX\Fantasy_Percussion_Segment_4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="889239970" Language="SFX">
+					<ShortName>part1_drums.wav</ShortName>
+					<Path>SFX\part1_drums_D79FB2B7.wem</Path>
+				</File>
+				<File Id="903497116" Language="SFX">
+					<ShortName>part1_countermelody.wav</ShortName>
+					<Path>SFX\part1_countermelody_D79FB2B7.wem</Path>
+				</File>
+				<File Id="920446060" Language="SFX">
+					<ShortName>part2_rhythmGuitarThingy.wav</ShortName>
+					<Path>SFX\part2_rhythmGuitarThingy_D79FB2B7.wem</Path>
+				</File>
+				<File Id="922268681" Language="SFX">
+					<ShortName>Fantasy_Percussion_Segment_2.wav</ShortName>
+					<Path>SFX\Fantasy_Percussion_Segment_2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="924406861" Language="SFX">
+					<ShortName>Fantasy_Percussion_Segment_1.wav</ShortName>
+					<Path>SFX\Fantasy_Percussion_Segment_1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="940770727" Language="SFX">
+					<ShortName>Fantasy_Pad_Segment_1.wav</ShortName>
+					<Path>SFX\Fantasy_Pad_Segment_1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="957997892" Language="SFX">
+					<ShortName>part2_drums.wav</ShortName>
+					<Path>SFX\part2_drums_D79FB2B7.wem</Path>
+				</File>
+				<File Id="958896064" Language="SFX">
+					<ShortName>part2_melody.wav</ShortName>
+					<Path>SFX\part2_melody_D79FB2B7.wem</Path>
+				</File>
+				<File Id="963941047" Language="SFX">
+					<ShortName>Fantasy_Pad_Segment_4.wav</ShortName>
+					<Path>SFX\Fantasy_Pad_Segment_4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="980531226" Language="SFX">
+					<ShortName>Fantasy_Harmony_Segment_3.wav</ShortName>
+					<Path>SFX\Fantasy_Harmony_Segment_3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="995515479" Language="SFX">
+					<ShortName>part4_bass.wav</ShortName>
+					<Path>SFX\part4_bass_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1034891665" Language="SFX">
+					<ShortName>Fantasy_Bass_Segment_1.wav</ShortName>
+					<Path>SFX\Fantasy_Bass_Segment_1_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
