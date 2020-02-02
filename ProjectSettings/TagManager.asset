@@ -49,6 +49,9 @@ TagManager:
   - name: Node
     uniqueID: 4159194975
     locked: 0
+  - name: Maze
+    uniqueID: 2127593221
+    locked: 0
   - name: Players
     uniqueID: 1333982077
     locked: 0
