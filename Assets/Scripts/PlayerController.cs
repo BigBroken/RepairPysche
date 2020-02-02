@@ -15,6 +15,7 @@ public class PlayerController : MovementController
     public GameObject flipQuad;
     public GameObject garbleMazeQuad;
     public GameObject flipMazeQuad;
+    public GameObject winScreen;
 
     //UseRepair defines
     public float repairTime = 5;
@@ -34,6 +35,16 @@ public class PlayerController : MovementController
     void Update()
     {
         SetupQuads();
+        
+        int captured = captureNodeCount();
+        
+        if (captured == 6) {
+            win();
+            return;
+        }
+        if (captured == 0) {
+            return;
+        }
         
         if (Player == SelectedPlayer.Player1)
         {
@@ -135,7 +146,7 @@ public class PlayerController : MovementController
             return null;
         }
     }
-
+    
     GameObject CurrentMazeQuad()
     {
         int captured = captureNodeCount();
@@ -151,6 +162,8 @@ public class PlayerController : MovementController
     
     void SetupQuads()
     {
+        int captured = captureNodeCount();
+        
         currentQuad = CurrentQuad();
         
         if (currentQuad) {
@@ -164,6 +177,11 @@ public class PlayerController : MovementController
         if (flipQuad != currentQuad) {
             flipQuad.SetActive(false);
         }
+    }
+
+    void win()
+    {
+        winScreen.SetActive(true);
     }
 
     public void startRepair()
