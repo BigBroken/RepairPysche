@@ -101,8 +101,9 @@ MonoBehaviour:
   repairTime: 2
   attackTime: 1
   nodeSpriteRenderer: {fileID: 0}
-  leftControlled: {fileID: 21300000, guid: 1eae5ade6320d89468712b91eb80f1f1, type: 3}
-  rightControlled: {fileID: 21300000, guid: f98b0ebca28a3440dbcf4b97ee3f64fb, type: 3}
+  leftControlled: {fileID: 21300000, guid: 9eff87eaee8668a489264692ea135d49, type: 3}
+  rightControlled: {fileID: 21300000, guid: 8a346b3a7fe4c2b4caae5f609a536763, type: 3}
+  destroyed: {fileID: 21300000, guid: 94e2d438b3a23194a82fcd1ede72bba1, type: 3}
   regionLeftControlled: {fileID: 21300000, guid: 51fa940839ac2429baaee5964790f407,
     type: 3}
   regionRightControlled: {fileID: 21300000, guid: 6cfd7514bf75d4404b8b172f0c916140,
