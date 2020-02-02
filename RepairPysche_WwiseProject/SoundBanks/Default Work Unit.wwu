@@ -5,10 +5,18 @@
 			<ChildrenList>
 				<SoundBank Name="Main_Soundbank" ID="{63E20E3D-CA4D-4980-9CE4-8D9FD1F6672F}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Robot_Damaged" ID="{DE2C2932-A244-414E-9065-40693897D521}" WorkUnitID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Robot_Attack" ID="{E293D64A-D49C-41B4-A697-B5997469F48D}" WorkUnitID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Blip" ID="{204AEC82-ADBA-4298-97A9-74C326D2BE67}" WorkUnitID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Fairy_Movent" ID="{8C10EDD2-07CC-434A-8575-DBD16DECB56A}" WorkUnitID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Fairy_Movement" ID="{8C10EDD2-07CC-434A-8575-DBD16DECB56A}" WorkUnitID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Robot_Movement" ID="{E7D48798-CBCC-444E-9F9B-3AE714309DF4}" WorkUnitID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Robot_Win" ID="{06175B95-1FEC-4526-800A-21D483E9BE8D}" WorkUnitID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Main_music" ID="{21266905-3254-49AC-86D7-3747D91D4A2C}" WorkUnitID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Fairy_Win" ID="{534F5869-CD33-4BF0-B679-501D195A4D0B}" WorkUnitID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Robot_Lose" ID="{044A28D9-DBB9-4C5E-90E3-E2732BF5A582}" WorkUnitID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Fairy_Attack" ID="{09A2A13D-E403-4EA2-ABBC-1426CD034E4A}" WorkUnitID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Fairy_Damaged" ID="{6ED4EF99-C810-4F59-8E63-213E456B048B}" WorkUnitID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Fairy_Lose" ID="{A795193F-71C9-4F81-A795-D4A5A7660131}" WorkUnitID="{E23EF302-C8D0-42BC-86EF-D04DD845CF21}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
