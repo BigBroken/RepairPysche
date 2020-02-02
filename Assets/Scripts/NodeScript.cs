@@ -62,6 +62,7 @@ public class NodeScript : MonoBehaviour
         if (collision.CompareTag("Right"))
         {
             collision.GetComponent<FairyBrainController>().node = null;
+
         }
 
         if (collision.CompareTag("Left"))

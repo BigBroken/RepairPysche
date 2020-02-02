@@ -2,16 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MovementController
 {
     Rigidbody2D body;
 
-    float horizontal;
-    float vertical;
-
-    public float runSpeed = 20.0f;
-    public enum SelectedPlayer { Player1, Player2 };
-    public SelectedPlayer Player;
     public GameObject AttackPrefab;
     public List<NodeScript> StartingNodes;
     public List<NodeScript> CapturedNodes;
@@ -21,43 +15,64 @@ public class PlayerController : MonoBehaviour
     //UseRepair defines
     public float repairTime = 5;
     public float timer = 0;
-
-    void Start()
-    {
-        body = GetComponent<Rigidbody2D>();
-    }
+    public bool isRepairing = false;
+    public GameObject maze;
 
     void Update()
     {
         if (Player == SelectedPlayer.Player1)
         {
-            horizontal = Input.GetAxisRaw("Player1Horizontal");
-            vertical = Input.GetAxisRaw("Player1Vertical");
+            if (!isRepairing)
+            {
+                player1Movement();
+            }
+            
             if (Input.GetButtonDown("Player1Attack"))
             {
                 
             }
-            if (Input.GetButton("Player1Repair"))
+            if (Input.GetButtonDown("Player1Repair"))
             {
                 if (node != null)
                 {
-                    StartCoroutine(AttemptRepair());
+                    //StartCoroutine(AttemptRepair());
+                    if (isRepairing)
+                    {
+                        endRepair();
+                    }
+
+                    else if (!isRepairing)
+                    {
+                        startRepair();
+                    }
                 }
             }
         }
         else if (Player == SelectedPlayer.Player2)
         {
-            horizontal = Input.GetAxisRaw("Player2Horizontal");
-            vertical = Input.GetAxisRaw("Player2Vertical");
+            if (!isRepairing)
+            {
+                player2Movement();
+            }
+            
             if (Input.GetButtonDown("Player2Attack"))
             {
                 UseAttack();
             }
-            if (Input.GetButton("Player2Repair"))
+            if (Input.GetButtonDown("Player2Repair"))
             {
                 if (node != null)
                 {
-                    StartCoroutine(AttemptRepair());
+                    //StartCoroutine(AttemptRepair());
+                    if (isRepairing)
+                    {
+                        endRepair();
+                    }
+
+                    else if (!isRepairing)
+                    {
+                        startRepair();
+                    }
                 }
             }
         }
@@ -70,6 +85,18 @@ public class PlayerController : MonoBehaviour
     public void EnteredRegion(NodeScript Node)
     {
 
+    }
+
+    public void startRepair()
+    {
+        isRepairing = true;
+        maze.GetComponent<MazeScript>().GenerateMaze();
+    }
+
+    public void endRepair()
+    {
+        isRepairing = false;
+        maze.GetComponent<MazeScript>().EndMaze();
     }
 
     public IEnumerator AttemptRepair()
@@ -102,10 +129,6 @@ public class PlayerController : MonoBehaviour
         yield return null;
     }
 
-    private void FixedUpdate()
-    {
-        body.velocity = new Vector2(horizontal, vertical).normalized * runSpeed;
-    }
     public void NodeDamaged(NodeScript.NodeType type)
     {
         switch (type)
