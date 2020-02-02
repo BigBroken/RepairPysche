@@ -51,13 +51,13 @@ public class MazeScript : MonoBehaviour
         print("<3");
         if (brainController.CompareTag("Right"))
         {
-            brainController.GetComponent<FairyBrainController>().node.GetComponent<NodeScript>().controlledLeft = false;
+            brainController.GetComponent<FairyBrainController>().node.controlledLeft = false;
             brainController.GetComponent<FairyBrainController>().endRepair();
         }
 
         else if(brainController.CompareTag("Left"))
         {
-            brainController.GetComponent<RobotController>().node.GetComponent<NodeScript>().controlledLeft = true;
+            brainController.GetComponent<RobotController>().node.controlledLeft = true;
             brainController.GetComponent<RobotController>().endRepair();
         }
     }

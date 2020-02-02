@@ -48,14 +48,12 @@ public class NodeScript : MonoBehaviour
     {
         if (collision.CompareTag("Right"))
         {
-            collision.GetComponent<FairyBrainController>().node = gameObject;
-            collision.GetComponent<FairyBrainController>().nodeScript = this;
+            collision.GetComponent<FairyBrainController>().node = this;
         }
 
         if (collision.CompareTag("Left"))
         {
-            collision.GetComponent<RobotController>().node = gameObject;
-            collision.GetComponent<RobotController>().nodeScript = this;
+            collision.GetComponent<RobotController>().node = this;
         }
     }
 
@@ -64,15 +62,12 @@ public class NodeScript : MonoBehaviour
         if (collision.CompareTag("Right"))
         {
             collision.GetComponent<FairyBrainController>().node = null;
-            collision.GetComponent<FairyBrainController>().nodeScript = null;
 
         }
 
         if (collision.CompareTag("Left"))
         {
             collision.GetComponent<RobotController>().node = null;
-            collision.GetComponent<RobotController>().nodeScript = null;
-
         }
     }
 

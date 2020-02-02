@@ -9,8 +9,7 @@ public class PlayerController : MovementController
     public GameObject AttackPrefab;
     public List<NodeScript> StartingNodes;
     public List<NodeScript> CapturedNodes;
-    public GameObject node;
-    public NodeScript nodeScript;
+    public NodeScript node;
     public bool AmRobot;
 
     //UseRepair defines
@@ -102,7 +101,7 @@ public class PlayerController : MovementController
 
     public IEnumerator AttemptRepair()
     {
-        float repairTime = nodeScript.repairTime;
+        float repairTime = node.repairTime;
         string playerInput;
         if(SelectedPlayer.Player1 == Player)
         {
@@ -111,20 +110,20 @@ public class PlayerController : MovementController
         {
             playerInput = "Player2Repair";
         }
-        while (Input.GetButton(playerInput) && timer < nodeScript.repairTime)
+        while (Input.GetButton(playerInput) && timer < node.repairTime)
         {
             //update repair timer
             timer += Time.deltaTime;
             yield return new WaitForEndOfFrame();
         }
-        if(timer > nodeScript.repairTime)
+        if(timer > node.repairTime)
         {
             if (AmRobot)
             {
-                nodeScript.changeState(NodeScript.NodeState.RobotControlled);
+                node.changeState(NodeScript.NodeState.RobotControlled);
             } else
             {
-                nodeScript.changeState(NodeScript.NodeState.FairyControlled);
+                node.changeState(NodeScript.NodeState.FairyControlled);
             }
         }
         yield return null;
