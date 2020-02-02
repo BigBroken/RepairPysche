@@ -11,7 +11,7 @@ public class MazeScript : MonoBehaviour
     float[] yPositions = { 0.59f, -0.06f, -0.72f };
     GameObject[] activeTiles = { null, null, null };
 
-    public void GenerateMaze()
+    public void GenerateMaze(GameObject currentQuad)
     {
         for(int i = 0; i < 3; i++)
         {
@@ -34,10 +34,22 @@ public class MazeScript : MonoBehaviour
 
         mazePlayerReal = Instantiate(mazePlayerPrefab, transform);
         mazePlayerReal.transform.localPosition = new Vector3(0, -1.13f, 0);
+        mazePlayerReal.transform.localScale = new Vector3(0.08f / transform.localScale.x, 0.08f / transform.localScale.y, 0.08f);
+        mazePlayerReal.GetComponent<MovementController>().currentQuad = currentQuad;
+        
+        if (currentQuad != null) {
+            currentQuad.SetActive(true);
+        }
     }
 
     public void EndMaze()
     {
+        GameObject quad = mazePlayerReal.GetComponent<MovementController>().currentQuad;
+        
+        if (quad != null) {
+            quad.SetActive(false);
+        }
+        
         for(int i = 0; i < 3; i++)
         {
             Destroy(activeTiles[i]);
