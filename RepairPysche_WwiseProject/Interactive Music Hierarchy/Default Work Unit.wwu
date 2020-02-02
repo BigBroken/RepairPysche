@@ -46,6 +46,11 @@
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{B6E6F193-1CB6-422F-A63A-7FBE98ABD748}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
 											<TransitionInfo/>
 										</MusicTransition>
 									</TransitionList>
@@ -239,13 +244,223 @@
 										</MusicTrackSequence>
 									</SequenceList>
 								</MusicTrack>
+								<MusicTrack Name="Fantasy_Bass_Segment_1" ID="{51CDEA67-2046-4B84-91A9-E024E6C6FBEA}" ShortID="491778793">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Bass_Segment_1" ID="{79DB979C-FA60-421A-B4D8-83A9BE5CF22B}" ShortID="1034891665">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Bass_Segment_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{048BADFF-C0E1-467C-BED1-272A2135494A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{0C4B3CC8-3631-4794-94CC-EE4ABE444CEF}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Bass_Segment_1" ID="{19EE25EB-32F2-4004-A344-75FC823CEB00}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Bass_Segment_1" ID="{79DB979C-FA60-421A-B4D8-83A9BE5CF22B}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Counter_Segment_1" ID="{659A59B4-57AA-4D8F-9BB1-68FCC2259E84}" ShortID="856444523">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Counter_Segment_1" ID="{5664BB8A-CBFF-4DDE-8F74-478A5CA27265}" ShortID="45051893">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Counter_Segment_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{3D26DECC-C42C-46FB-BABD-7A5233AD788E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{AABF87C8-D599-41D7-85EE-82F31EDC54B7}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Counter_Segment_1" ID="{713F86B1-CD06-4362-9180-25E446CCF748}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Counter_Segment_1" ID="{5664BB8A-CBFF-4DDE-8F74-478A5CA27265}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Harmony_Segment_1" ID="{CC606C0E-035F-4714-92AA-2BF6403DD110}" ShortID="774110563">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Harmony_Segment_1" ID="{9B6809C6-2223-4217-A7A3-6BBB562BD06A}" ShortID="277010278">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Harmony_Segment_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5246FDDC-B916-4670-8FAF-1BF8530785F4}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{34DF003A-5BF1-4F3E-9EE6-1CFF143406F4}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Harmony_Segment_1" ID="{1298BD8E-94B7-4A33-BE5C-C5EF08060B3B}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Harmony_Segment_1" ID="{9B6809C6-2223-4217-A7A3-6BBB562BD06A}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Lead_Segment_1" ID="{EE88A13A-1E67-408D-BA4A-CA582608A9EB}" ShortID="960867749">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Lead_Segment_1" ID="{235AFBBA-2932-4A47-9B75-05D8EAA7D42A}" ShortID="817585001">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Lead_Segment_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D194F29B-37CD-485E-BBCB-C443EA40D766}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{18F9E6E5-A5FF-42E2-AD25-3103709BEABE}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Lead_Segment_1" ID="{6D5A7DBD-F66E-4ECC-B08F-C9A249C3A472}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Lead_Segment_1" ID="{235AFBBA-2932-4A47-9B75-05D8EAA7D42A}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Pad_Segment_1" ID="{45B5EBE9-D8AB-41E6-AC85-DE651CF2C02C}" ShortID="529299060">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Pad_Segment_1" ID="{ACF3627F-C6C2-4C50-84FD-C7A9A8AE42CC}" ShortID="940770727">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Pad_Segment_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A4BDE4AE-B466-41B6-AAB1-528E705D56CB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{9A592C69-1BA0-43D3-8473-7B9BE92CF981}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Pad_Segment_1" ID="{416A8C40-FF71-41A9-ADDC-25FB3D5D11AA}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Pad_Segment_1" ID="{ACF3627F-C6C2-4C50-84FD-C7A9A8AE42CC}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Percussion_Segment_1" ID="{02580FDA-A702-4034-8211-0679F3BC03A3}" ShortID="518159577">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Percussion_Segment_1" ID="{F4C152B6-A84E-4F78-98A2-989C6DEBF0F6}" ShortID="924406861">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Percussion_Segment_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{CDDDE0F0-039C-4308-8E02-2A625400DE58}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{F0F86662-5BB4-49FB-8992-F56906DE86A6}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Percussion_Segment_1" ID="{F83C64BD-7E05-4081-ABFB-605C295F3F1A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Percussion_Segment_1" ID="{F4C152B6-A84E-4F78-98A2-989C6DEBF0F6}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
 							</ChildrenList>
 							<CueList>
 								<MusicCue Name="Entry Cue" ID="{8CE2066E-9D52-43B5-A4BF-2BB0AB94D258}"/>
 								<MusicCue Name="Exit Cue" ID="{5981EC62-EF27-4BEA-9A4E-85B0D82378DD}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+										<Property Name="TimeMs" Type="Real64" Value="13714.2857142857"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
@@ -484,7 +699,7 @@
 								<MusicCue Name="Exit Cue" ID="{28AAE0E7-D13E-4A2E-9AB9-8ED3CA7CD909}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+										<Property Name="TimeMs" Type="Real64" Value="13714.2857142857"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
@@ -712,13 +927,223 @@
 										</MusicTrackSequence>
 									</SequenceList>
 								</MusicTrack>
+								<MusicTrack Name="Fantasy_Bass_Segment_3" ID="{6DEE9AC7-EEE6-41F7-819A-1B5AE69C3865}" ShortID="859291912">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Bass_Segment_3" ID="{6E28640E-C0E9-4CF5-9AE3-30670CD23DD3}" ShortID="571000802">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Bass_Segment_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8FAF3B9E-8FF9-408D-BBCC-7B49156BC711}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{797B2D9C-B55F-43FC-907B-293534A0508A}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Bass_Segment_3" ID="{EC211F32-E011-4D5E-8A4A-1D2ABD756226}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Bass_Segment_3" ID="{6E28640E-C0E9-4CF5-9AE3-30670CD23DD3}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Counter_Segment_3" ID="{0179B8AA-B535-4BF9-978C-C032C1A850D9}" ShortID="844360013">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Counter_Segment_3" ID="{EC46CA07-1470-4084-BD8B-FBBDD963867B}" ShortID="179090350">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Counter_Segment_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E36A0DFF-DFCC-458F-9C12-138331FCC941}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{2156315F-13CD-462B-8B19-24308A1E7EC0}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Counter_Segment_3" ID="{A001BA21-79C9-4401-A6C1-5B8FA4648728}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Counter_Segment_3" ID="{EC46CA07-1470-4084-BD8B-FBBDD963867B}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Harmony_Segment_3" ID="{2B22C604-8B07-4AE7-A273-BEAA0F6E1AE2}" ShortID="770329037">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Harmony_Segment_3" ID="{70EEA9BA-3CE2-4AF3-841F-C4B6FDA2E84F}" ShortID="980531226">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Harmony_Segment_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5A77FEF6-BCF0-4641-9965-D260607A15BE}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{B66C0E58-FB70-402E-8EBC-4A2508D2381A}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Harmony_Segment_3" ID="{F844F60B-4ECA-469D-B3F6-99761A8CB2E6}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Harmony_Segment_3" ID="{70EEA9BA-3CE2-4AF3-841F-C4B6FDA2E84F}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Lead_Segment_3" ID="{272C4779-72AF-4524-AA5A-9727104E8160}" ShortID="844545965">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Lead_Segment_3" ID="{9BF4B129-C153-4792-B0F8-CCCCBE58D29D}" ShortID="40656413">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Lead_Segment_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{9AA179D0-4D26-4C22-91F9-7199FA1CD6D7}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{66114CC0-84A5-47CE-8B51-5317E62C13A1}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Lead_Segment_3" ID="{81A66635-8C08-418C-9B44-D0B13DEB02D9}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Lead_Segment_3" ID="{9BF4B129-C153-4792-B0F8-CCCCBE58D29D}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Pad_Segment_3" ID="{16583D17-5B5C-4D6C-92E9-30EA41BC78C4}" ShortID="899747063">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Pad_Segment_3" ID="{F673E516-0357-4C69-9A3F-4E1ABFCC9435}" ShortID="754874330">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Pad_Segment_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{144221E0-88DA-4D1C-87C5-935ADED23BE5}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{47D3469B-BF43-4846-966E-45D68A7F17BA}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Pad_Segment_3" ID="{6A8DE439-E1BD-4CDB-B5B6-1359259D22D7}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Pad_Segment_3" ID="{F673E516-0357-4C69-9A3F-4E1ABFCC9435}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fantasy_Percussion_Segment_3" ID="{C00B97DA-0617-4AE1-A757-B2E3C45CC701}" ShortID="1045323423">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fantasy_Percussion_Segment_3" ID="{1463E2EE-784C-42D7-8497-5D25807AF577}" ShortID="518212956">
+											<Language>SFX</Language>
+											<AudioFile>Fantasy_Percussion_Segment_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1B320C0A-93C4-4BC4-A6FE-E9AE42C5C93F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{71F75A5D-18E4-4C07-BD0E-BC4FE4D65374}">
+											<ClipList>
+												<MusicClip Name="Fantasy_Percussion_Segment_3" ID="{E3BC908A-6030-46F8-A5B8-0F273AEFED72}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16285.6916099773"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fantasy_Percussion_Segment_3" ID="{1463E2EE-784C-42D7-8497-5D25807AF577}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
 							</ChildrenList>
 							<CueList>
 								<MusicCue Name="Entry Cue" ID="{208D785E-7C17-4E2D-A3A1-E9DEF949C97A}"/>
 								<MusicCue Name="Exit Cue" ID="{9C21D7ED-382A-4A25-81FC-694821690100}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+										<Property Name="TimeMs" Type="Real64" Value="13714.2857142857"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
@@ -952,7 +1377,7 @@
 								<MusicCue Name="Exit Cue" ID="{2AC4ECBA-A69B-4AFE-970A-168AE4B3688D}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+										<Property Name="TimeMs" Type="Real64" Value="13714.2857142857"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
@@ -972,9 +1397,63 @@
 						</MusicTransition>
 					</TransitionList>
 					<Playlist>
-						<MusicPlaylistItem Name="" ID="{1A958265-DDCB-42CD-B47C-01AEB46F0C56}" ShortID="879938227"/>
+						<MusicPlaylistItem Name="" ID="{1A958265-DDCB-42CD-B47C-01AEB46F0C56}" ShortID="879938227">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+								<Property Name="PlayMode" Type="int16" Value="2"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{0FC7BAE7-80B9-4A35-88C3-BC4407465BFC}" ShortID="376364857">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Segment_1" ID="{6381218E-BEE5-4193-B5B6-1112550CC0BF}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{B7457546-D92E-461E-8B6F-DA4C726FCA83}" ShortID="482371680">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Segment_2" ID="{FB0169B7-5347-4E50-8D7E-A12916DC5A55}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{5AEE6948-3D2E-4D36-A67A-EDEB7E716C21}" ShortID="118467490">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Segment_3" ID="{97E9FB59-BF13-417C-A558-C37549AD106B}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{CFDD08A1-86FD-49EB-B393-63E0862AE584}" ShortID="277438457">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Segment_4" ID="{B84F43EA-44D5-47B8-BADE-26708A879DBA}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
+				<MusicSwitchContainer Name="MainMusic" ID="{2F7537EE-75AC-466B-9D17-D1BACDCC2547}" ShortID="820416419">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF25EDE5-E9D7-4B7E-BE92-46EC345EFD5C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9A12816-34CB-4727-A7D5-061038A8A5BA}"/>
+						</Reference>
+					</ReferenceList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{914C6262-EECC-4E28-B42C-CFEB511C81F1}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{6878402C-2AAA-4EFC-9EF4-C6FB35D273DB}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
