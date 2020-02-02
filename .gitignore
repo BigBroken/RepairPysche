@@ -3,17 +3,14 @@
 
 # WWise
 RepairPysche_WwiseProject/Originals/SFX/*.akd
-RepairPysche_WwiseProject/.cache/*
-RepairPysche_WwiseProject/RepairPysche_WwiseProject.crossover.validationcache/*
-RepairPysche_WwiseProject/RepairPysche_WwiseProject.crossover.wsettings/*
-RepairPysche_WwiseProject/GeneratedSoundBanks/*
-RepairPysche_WwiseProject/IncrementalSoundBankData.xml
-Assets/Wwise_IDs.h
-Assets/Wwise_IDs.h.meta
-Assets/StreamingAssets/Audio/GeneratedSoundBanks.meta
-Assets/Wwise/Deployment/*
+RepairPysche_WwiseProject/.cache
 RepairPysche_WwiseProject/RepairPysche_WwiseProject.crossover.validationcache
 RepairPysche_WwiseProject/RepairPysche_WwiseProject.crossover.wsettings
+RepairPysche_WwiseProject/GeneratedSoundBanks
+RepairPysche_WwiseProject/IncrementalSoundBankData.xml
+Assets/Wwise_IDs.h
+Assets/StreamingAssets/Audio/GeneratedSoundBanks.meta
+Assets/Wwise/Deployment/*
 
 # This .gitignore file should be placed at the root of your Unity project directory
 #

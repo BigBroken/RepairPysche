@@ -1,0 +1,41 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	4024353233	Node_1			\Default Work Unit\Node_1	
+	4024353234	Node_2			\Default Work Unit\Node_2	
+	4024353235	Node_3			\Default Work Unit\Node_3	
+	4024353236	Node_4			\Default Work Unit\Node_4	
+	4024353237	Node_5			\Default Work Unit\Node_5	
+	4024353238	Node_6			\Default Work Unit\Node_6	
+
+State	ID	Name	State Group			Notes
+	0	None	Node_1			
+	1359166010	Destroyed	Node_1			
+	4029721826	Captured_Robot	Node_1			
+	4188184641	Captured_Fairy	Node_1			
+	0	None	Node_2			
+	1359166010	Destroyed	Node_2			
+	4029721826	Captured_Robot	Node_2			
+	4188184641	Captured_Fairy	Node_2			
+	0	None	Node_3			
+	1359166010	Destroyed	Node_3			
+	4029721826	Captured_Robot	Node_3			
+	4188184641	Captured_Fairy	Node_3			
+	0	None	Node_4			
+	1359166010	Destroyed	Node_4			
+	4029721826	Captured_Robot	Node_4			
+	4188184641	Captured_Fairy	Node_4			
+	0	None	Node_5			
+	1359166010	Destroyed	Node_5			
+	4029721826	Captured_Robot	Node_5			
+	4188184641	Captured_Fairy	Node_5			
+	0	None	Node_6			
+	1359166010	Destroyed	Node_6			
+	4029721826	Captured_Robot	Node_6			
+	4188184641	Captured_Fairy	Node_6			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
