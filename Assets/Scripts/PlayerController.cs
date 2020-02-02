@@ -77,6 +77,12 @@ public class PlayerController : MovementController
             }
         }
     }
+    
+    protected override bool ShouldMove()
+    {
+        return !isRepairing;
+    }
+    
     void UseAttack()
     {
         GameObject Attack = Instantiate(AttackPrefab, this.transform);
